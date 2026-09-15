@@ -133,3 +133,13 @@ src/mountain_car/
 saves/                  # agent save files land here
 EXERCISES.md            # the exercises: what to implement, in what order
 ```
+
+## VAriables de ambiente
+
+export MOUNTAIN_CAR_N_BINS=20
+export MOUNTAIN_CAR_LR=0.1
+export MOUNTAIN_CAR_GAMMA=0.99
+export MOUNTAIN_CAR_EPSILON_START=1.0
+export MOUNTAIN_CAR_EPSILON_END=0.01
+export MOUNTAIN_CAR_EPSILON_DECAY=0.99995
+
