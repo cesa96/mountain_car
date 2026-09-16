@@ -1,0 +1,1349 @@
+
+
+Hiperparámetros por defecto  
+        n_bins: int = 20,
+        lr: float = 0.1,
+        gamma: float = 0.99,
+        epsilon_start: float = 1.0,
+        epsilon_end: float = 0.01,
+        epsilon_decay: float = 0.9995,
+
+Resultados Entrenamiento
+
+Episode 100/20000 | Avg Reward: -200.00 | Epsilon: 0.9512 | States visited: 62
+Episode 200/20000 | Avg Reward: -200.00 | Epsilon: 0.9048 | States visited: 72
+Episode 300/20000 | Avg Reward: -200.00 | Epsilon: 0.8607 | States visited: 87
+Episode 400/20000 | Avg Reward: -200.00 | Epsilon: 0.8187 | States visited: 97
+Episode 500/20000 | Avg Reward: -200.00 | Epsilon: 0.7788 | States visited: 133
+Episode 600/20000 | Avg Reward: -200.00 | Epsilon: 0.7408 | States visited: 144
+Episode 700/20000 | Avg Reward: -200.00 | Epsilon: 0.7046 | States visited: 152
+Episode 800/20000 | Avg Reward: -200.00 | Epsilon: 0.6703 | States visited: 163
+Episode 900/20000 | Avg Reward: -200.00 | Epsilon: 0.6376 | States visited: 176
+Episode 1000/20000 | Avg Reward: -200.00 | Epsilon: 0.6065 | States visited: 182
+Episode 1100/20000 | Avg Reward: -200.00 | Epsilon: 0.5769 | States visited: 183
+Episode 1200/20000 | Avg Reward: -200.00 | Epsilon: 0.5487 | States visited: 212
+Episode 1300/20000 | Avg Reward: -200.00 | Epsilon: 0.5220 | States visited: 218
+Episode 1400/20000 | Avg Reward: -200.00 | Epsilon: 0.4965 | States visited: 227
+Episode 1500/20000 | Avg Reward: -200.00 | Epsilon: 0.4723 | States visited: 231
+Episode 1600/20000 | Avg Reward: -200.00 | Epsilon: 0.4492 | States visited: 236
+Episode 1700/20000 | Avg Reward: -199.72 | Epsilon: 0.4273 | States visited: 245
+Episode 1800/20000 | Avg Reward: -200.00 | Epsilon: 0.4065 | States visited: 250
+Episode 1900/20000 | Avg Reward: -199.35 | Epsilon: 0.3866 | States visited: 255
+Episode 2000/20000 | Avg Reward: -199.91 | Epsilon: 0.3678 | States visited: 262
+Episode 2100/20000 | Avg Reward: -199.42 | Epsilon: 0.3498 | States visited: 266
+Episode 2200/20000 | Avg Reward: -198.43 | Epsilon: 0.3328 | States visited: 269
+Episode 2300/20000 | Avg Reward: -199.85 | Epsilon: 0.3165 | States visited: 271
+Episode 2400/20000 | Avg Reward: -199.08 | Epsilon: 0.3011 | States visited: 273
+Episode 2500/20000 | Avg Reward: -198.60 | Epsilon: 0.2864 | States visited: 275
+Episode 2600/20000 | Avg Reward: -198.79 | Epsilon: 0.2724 | States visited: 275
+Episode 2700/20000 | Avg Reward: -195.15 | Epsilon: 0.2592 | States visited: 280
+Episode 2800/20000 | Avg Reward: -195.56 | Epsilon: 0.2465 | States visited: 281
+Episode 2900/20000 | Avg Reward: -193.21 | Epsilon: 0.2345 | States visited: 283
+Episode 3000/20000 | Avg Reward: -194.26 | Epsilon: 0.2230 | States visited: 285
+Episode 3100/20000 | Avg Reward: -189.08 | Epsilon: 0.2122 | States visited: 287
+Episode 3200/20000 | Avg Reward: -190.89 | Epsilon: 0.2018 | States visited: 290
+Episode 3300/20000 | Avg Reward: -189.42 | Epsilon: 0.1920 | States visited: 290
+Episode 3400/20000 | Avg Reward: -195.49 | Epsilon: 0.1826 | States visited: 290
+Episode 3500/20000 | Avg Reward: -184.82 | Epsilon: 0.1737 | States visited: 290
+Episode 3600/20000 | Avg Reward: -185.93 | Epsilon: 0.1652 | States visited: 291
+Episode 3700/20000 | Avg Reward: -187.16 | Epsilon: 0.1572 | States visited: 291
+Episode 3800/20000 | Avg Reward: -197.83 | Epsilon: 0.1495 | States visited: 291
+Episode 3900/20000 | Avg Reward: -182.06 | Epsilon: 0.1422 | States visited: 291
+Episode 4000/20000 | Avg Reward: -181.25 | Epsilon: 0.1353 | States visited: 291
+Episode 4100/20000 | Avg Reward: -199.37 | Epsilon: 0.1287 | States visited: 291
+Episode 4200/20000 | Avg Reward: -198.37 | Epsilon: 0.1224 | States visited: 291
+Episode 4300/20000 | Avg Reward: -186.93 | Epsilon: 0.1164 | States visited: 291
+Episode 4400/20000 | Avg Reward: -174.87 | Epsilon: 0.1107 | States visited: 291
+Episode 4500/20000 | Avg Reward: -169.46 | Epsilon: 0.1053 | States visited: 291
+Episode 4600/20000 | Avg Reward: -165.61 | Epsilon: 0.1002 | States visited: 291
+Episode 4700/20000 | Avg Reward: -172.00 | Epsilon: 0.0953 | States visited: 291
+Episode 4800/20000 | Avg Reward: -171.10 | Epsilon: 0.0907 | States visited: 291
+Episode 4900/20000 | Avg Reward: -192.24 | Epsilon: 0.0862 | States visited: 291
+Episode 5000/20000 | Avg Reward: -173.56 | Epsilon: 0.0820 | States visited: 291
+Episode 5100/20000 | Avg Reward: -183.56 | Epsilon: 0.0780 | States visited: 291
+Episode 5200/20000 | Avg Reward: -175.88 | Epsilon: 0.0742 | States visited: 292
+Episode 5300/20000 | Avg Reward: -174.29 | Epsilon: 0.0706 | States visited: 293
+Episode 5400/20000 | Avg Reward: -194.78 | Epsilon: 0.0672 | States visited: 293
+Episode 5500/20000 | Avg Reward: -161.93 | Epsilon: 0.0639 | States visited: 293
+Episode 5600/20000 | Avg Reward: -163.14 | Epsilon: 0.0608 | States visited: 293
+Episode 5700/20000 | Avg Reward: -157.28 | Epsilon: 0.0578 | States visited: 293
+Episode 5800/20000 | Avg Reward: -166.17 | Epsilon: 0.0550 | States visited: 293
+Episode 5900/20000 | Avg Reward: -161.49 | Epsilon: 0.0523 | States visited: 293
+Episode 6000/20000 | Avg Reward: -159.72 | Epsilon: 0.0497 | States visited: 293
+Episode 6100/20000 | Avg Reward: -169.51 | Epsilon: 0.0473 | States visited: 293
+Episode 6200/20000 | Avg Reward: -168.32 | Epsilon: 0.0450 | States visited: 293
+Episode 6300/20000 | Avg Reward: -164.81 | Epsilon: 0.0428 | States visited: 293
+Episode 6400/20000 | Avg Reward: -158.12 | Epsilon: 0.0407 | States visited: 293
+Episode 6500/20000 | Avg Reward: -173.90 | Epsilon: 0.0387 | States visited: 293
+Episode 6600/20000 | Avg Reward: -174.81 | Epsilon: 0.0369 | States visited: 293
+Episode 6700/20000 | Avg Reward: -168.75 | Epsilon: 0.0351 | States visited: 293
+Episode 6800/20000 | Avg Reward: -170.33 | Epsilon: 0.0333 | States visited: 293
+Episode 6900/20000 | Avg Reward: -184.51 | Epsilon: 0.0317 | States visited: 293
+Episode 7000/20000 | Avg Reward: -160.54 | Epsilon: 0.0302 | States visited: 293
+Episode 7100/20000 | Avg Reward: -174.97 | Epsilon: 0.0287 | States visited: 294
+Episode 7200/20000 | Avg Reward: -163.61 | Epsilon: 0.0273 | States visited: 295
+Episode 7300/20000 | Avg Reward: -163.19 | Epsilon: 0.0260 | States visited: 295
+Episode 7400/20000 | Avg Reward: -159.27 | Epsilon: 0.0247 | States visited: 296
+Episode 7500/20000 | Avg Reward: -148.42 | Epsilon: 0.0235 | States visited: 296
+Episode 7600/20000 | Avg Reward: -140.03 | Epsilon: 0.0223 | States visited: 296
+Episode 7700/20000 | Avg Reward: -138.27 | Epsilon: 0.0213 | States visited: 296
+Episode 7800/20000 | Avg Reward: -150.45 | Epsilon: 0.0202 | States visited: 296
+Episode 7900/20000 | Avg Reward: -145.80 | Epsilon: 0.0192 | States visited: 296
+Episode 8000/20000 | Avg Reward: -158.54 | Epsilon: 0.0183 | States visited: 296
+Episode 8100/20000 | Avg Reward: -153.93 | Epsilon: 0.0174 | States visited: 296
+Episode 8200/20000 | Avg Reward: -152.51 | Epsilon: 0.0166 | States visited: 296
+Episode 8300/20000 | Avg Reward: -152.20 | Epsilon: 0.0157 | States visited: 296
+Episode 8400/20000 | Avg Reward: -153.09 | Epsilon: 0.0150 | States visited: 296
+Episode 8500/20000 | Avg Reward: -147.04 | Epsilon: 0.0142 | States visited: 296
+Episode 8600/20000 | Avg Reward: -161.45 | Epsilon: 0.0136 | States visited: 296
+Episode 8700/20000 | Avg Reward: -159.47 | Epsilon: 0.0129 | States visited: 296
+Episode 8800/20000 | Avg Reward: -152.69 | Epsilon: 0.0123 | States visited: 296
+Episode 8900/20000 | Avg Reward: -135.38 | Epsilon: 0.0117 | States visited: 296
+Episode 9000/20000 | Avg Reward: -136.98 | Epsilon: 0.0111 | States visited: 296
+Episode 9100/20000 | Avg Reward: -131.51 | Epsilon: 0.0106 | States visited: 296
+Episode 9200/20000 | Avg Reward: -142.21 | Epsilon: 0.0100 | States visited: 296
+Episode 9300/20000 | Avg Reward: -146.21 | Epsilon: 0.0100 | States visited: 296
+Episode 9400/20000 | Avg Reward: -157.32 | Epsilon: 0.0100 | States visited: 296
+Episode 9500/20000 | Avg Reward: -146.73 | Epsilon: 0.0100 | States visited: 296
+Episode 9600/20000 | Avg Reward: -151.06 | Epsilon: 0.0100 | States visited: 297
+Episode 9700/20000 | Avg Reward: -149.27 | Epsilon: 0.0100 | States visited: 297
+Episode 9800/20000 | Avg Reward: -157.79 | Epsilon: 0.0100 | States visited: 297
+Episode 9900/20000 | Avg Reward: -149.00 | Epsilon: 0.0100 | States visited: 297
+Episode 10000/20000 | Avg Reward: -175.42 | Epsilon: 0.0100 | States visited: 297
+Episode 10100/20000 | Avg Reward: -166.27 | Epsilon: 0.0100 | States visited: 297
+Episode 10200/20000 | Avg Reward: -169.01 | Epsilon: 0.0100 | States visited: 297
+Episode 10300/20000 | Avg Reward: -162.94 | Epsilon: 0.0100 | States visited: 297
+Episode 10400/20000 | Avg Reward: -162.35 | Epsilon: 0.0100 | States visited: 297
+Episode 10500/20000 | Avg Reward: -159.79 | Epsilon: 0.0100 | States visited: 297
+Episode 10600/20000 | Avg Reward: -163.91 | Epsilon: 0.0100 | States visited: 297
+Episode 10700/20000 | Avg Reward: -150.70 | Epsilon: 0.0100 | States visited: 297
+Episode 10800/20000 | Avg Reward: -136.91 | Epsilon: 0.0100 | States visited: 297
+Episode 10900/20000 | Avg Reward: -140.68 | Epsilon: 0.0100 | States visited: 297
+Episode 11000/20000 | Avg Reward: -138.11 | Epsilon: 0.0100 | States visited: 297
+Episode 11100/20000 | Avg Reward: -135.21 | Epsilon: 0.0100 | States visited: 297
+Episode 11200/20000 | Avg Reward: -135.30 | Epsilon: 0.0100 | States visited: 297
+Episode 11300/20000 | Avg Reward: -132.89 | Epsilon: 0.0100 | States visited: 297
+Episode 11400/20000 | Avg Reward: -135.58 | Epsilon: 0.0100 | States visited: 297
+Episode 11500/20000 | Avg Reward: -134.08 | Epsilon: 0.0100 | States visited: 297
+Episode 11600/20000 | Avg Reward: -134.26 | Epsilon: 0.0100 | States visited: 297
+Episode 11700/20000 | Avg Reward: -129.03 | Epsilon: 0.0100 | States visited: 297
+Episode 11800/20000 | Avg Reward: -129.26 | Epsilon: 0.0100 | States visited: 297
+Episode 11900/20000 | Avg Reward: -128.59 | Epsilon: 0.0100 | States visited: 297
+Episode 12000/20000 | Avg Reward: -129.18 | Epsilon: 0.0100 | States visited: 297
+Episode 12100/20000 | Avg Reward: -129.56 | Epsilon: 0.0100 | States visited: 297
+Episode 12200/20000 | Avg Reward: -129.05 | Epsilon: 0.0100 | States visited: 297
+Episode 12300/20000 | Avg Reward: -140.54 | Epsilon: 0.0100 | States visited: 297
+Episode 12400/20000 | Avg Reward: -131.72 | Epsilon: 0.0100 | States visited: 297
+Episode 12500/20000 | Avg Reward: -138.37 | Epsilon: 0.0100 | States visited: 297
+Episode 12600/20000 | Avg Reward: -141.47 | Epsilon: 0.0100 | States visited: 297
+Episode 12700/20000 | Avg Reward: -132.54 | Epsilon: 0.0100 | States visited: 297
+Episode 12800/20000 | Avg Reward: -156.53 | Epsilon: 0.0100 | States visited: 297
+Episode 12900/20000 | Avg Reward: -171.26 | Epsilon: 0.0100 | States visited: 297
+Episode 13000/20000 | Avg Reward: -170.21 | Epsilon: 0.0100 | States visited: 297
+Episode 13100/20000 | Avg Reward: -166.52 | Epsilon: 0.0100 | States visited: 297
+Episode 13200/20000 | Avg Reward: -161.21 | Epsilon: 0.0100 | States visited: 297
+Episode 13300/20000 | Avg Reward: -156.34 | Epsilon: 0.0100 | States visited: 297
+Episode 13400/20000 | Avg Reward: -174.77 | Epsilon: 0.0100 | States visited: 297
+Episode 13500/20000 | Avg Reward: -176.22 | Epsilon: 0.0100 | States visited: 297
+Episode 13600/20000 | Avg Reward: -164.73 | Epsilon: 0.0100 | States visited: 297
+Episode 13700/20000 | Avg Reward: -163.75 | Epsilon: 0.0100 | States visited: 297
+Episode 13800/20000 | Avg Reward: -160.67 | Epsilon: 0.0100 | States visited: 297
+Episode 13900/20000 | Avg Reward: -159.63 | Epsilon: 0.0100 | States visited: 297
+Episode 14000/20000 | Avg Reward: -159.65 | Epsilon: 0.0100 | States visited: 297
+Episode 14100/20000 | Avg Reward: -149.57 | Epsilon: 0.0100 | States visited: 297
+Episode 14200/20000 | Avg Reward: -150.71 | Epsilon: 0.0100 | States visited: 297
+Episode 14300/20000 | Avg Reward: -150.75 | Epsilon: 0.0100 | States visited: 297
+Episode 14400/20000 | Avg Reward: -150.11 | Epsilon: 0.0100 | States visited: 297
+Episode 14500/20000 | Avg Reward: -147.91 | Epsilon: 0.0100 | States visited: 297
+Episode 14600/20000 | Avg Reward: -147.83 | Epsilon: 0.0100 | States visited: 297
+Episode 14700/20000 | Avg Reward: -148.77 | Epsilon: 0.0100 | States visited: 297
+Episode 14800/20000 | Avg Reward: -145.00 | Epsilon: 0.0100 | States visited: 297
+Episode 14900/20000 | Avg Reward: -144.71 | Epsilon: 0.0100 | States visited: 297
+Episode 15000/20000 | Avg Reward: -143.72 | Epsilon: 0.0100 | States visited: 297
+Episode 15100/20000 | Avg Reward: -144.56 | Epsilon: 0.0100 | States visited: 297
+Episode 15200/20000 | Avg Reward: -143.90 | Epsilon: 0.0100 | States visited: 297
+Episode 15300/20000 | Avg Reward: -148.28 | Epsilon: 0.0100 | States visited: 297
+Episode 15400/20000 | Avg Reward: -141.01 | Epsilon: 0.0100 | States visited: 297
+Episode 15500/20000 | Avg Reward: -135.75 | Epsilon: 0.0100 | States visited: 297
+Episode 15600/20000 | Avg Reward: -135.19 | Epsilon: 0.0100 | States visited: 297
+Episode 15700/20000 | Avg Reward: -136.00 | Epsilon: 0.0100 | States visited: 297
+Episode 15800/20000 | Avg Reward: -134.57 | Epsilon: 0.0100 | States visited: 297
+Episode 15900/20000 | Avg Reward: -134.19 | Epsilon: 0.0100 | States visited: 297
+Episode 16000/20000 | Avg Reward: -135.84 | Epsilon: 0.0100 | States visited: 297
+Episode 16100/20000 | Avg Reward: -133.74 | Epsilon: 0.0100 | States visited: 297
+Episode 16200/20000 | Avg Reward: -134.51 | Epsilon: 0.0100 | States visited: 297
+Episode 16300/20000 | Avg Reward: -136.11 | Epsilon: 0.0100 | States visited: 297
+Episode 16400/20000 | Avg Reward: -141.19 | Epsilon: 0.0100 | States visited: 297
+Episode 16500/20000 | Avg Reward: -141.86 | Epsilon: 0.0100 | States visited: 297
+Episode 16600/20000 | Avg Reward: -157.00 | Epsilon: 0.0100 | States visited: 297
+Episode 16700/20000 | Avg Reward: -174.39 | Epsilon: 0.0100 | States visited: 297
+Episode 16800/20000 | Avg Reward: -159.87 | Epsilon: 0.0100 | States visited: 297
+Episode 16900/20000 | Avg Reward: -148.26 | Epsilon: 0.0100 | States visited: 297
+Episode 17000/20000 | Avg Reward: -138.64 | Epsilon: 0.0100 | States visited: 297
+Episode 17100/20000 | Avg Reward: -143.46 | Epsilon: 0.0100 | States visited: 297
+Episode 17200/20000 | Avg Reward: -142.40 | Epsilon: 0.0100 | States visited: 297
+Episode 17300/20000 | Avg Reward: -145.84 | Epsilon: 0.0100 | States visited: 297
+Episode 17400/20000 | Avg Reward: -146.15 | Epsilon: 0.0100 | States visited: 298
+Episode 17500/20000 | Avg Reward: -149.66 | Epsilon: 0.0100 | States visited: 298
+Episode 17600/20000 | Avg Reward: -147.35 | Epsilon: 0.0100 | States visited: 298
+Episode 17700/20000 | Avg Reward: -145.71 | Epsilon: 0.0100 | States visited: 298
+Episode 17800/20000 | Avg Reward: -151.64 | Epsilon: 0.0100 | States visited: 298
+Episode 17900/20000 | Avg Reward: -136.62 | Epsilon: 0.0100 | States visited: 298
+Episode 18000/20000 | Avg Reward: -136.31 | Epsilon: 0.0100 | States visited: 298
+Episode 18100/20000 | Avg Reward: -124.99 | Epsilon: 0.0100 | States visited: 298
+Episode 18200/20000 | Avg Reward: -124.07 | Epsilon: 0.0100 | States visited: 298
+Episode 18300/20000 | Avg Reward: -128.24 | Epsilon: 0.0100 | States visited: 298
+Episode 18400/20000 | Avg Reward: -127.34 | Epsilon: 0.0100 | States visited: 298
+Episode 18500/20000 | Avg Reward: -129.17 | Epsilon: 0.0100 | States visited: 298
+Episode 18600/20000 | Avg Reward: -123.55 | Epsilon: 0.0100 | States visited: 298
+Episode 18700/20000 | Avg Reward: -128.67 | Epsilon: 0.0100 | States visited: 298
+Episode 18800/20000 | Avg Reward: -125.88 | Epsilon: 0.0100 | States visited: 298
+Episode 18900/20000 | Avg Reward: -134.62 | Epsilon: 0.0100 | States visited: 298
+Episode 19000/20000 | Avg Reward: -133.89 | Epsilon: 0.0100 | States visited: 298
+Episode 19100/20000 | Avg Reward: -135.13 | Epsilon: 0.0100 | States visited: 298
+Episode 19200/20000 | Avg Reward: -139.95 | Epsilon: 0.0100 | States visited: 298
+Episode 19300/20000 | Avg Reward: -145.34 | Epsilon: 0.0100 | States visited: 298
+Episode 19400/20000 | Avg Reward: -148.02 | Epsilon: 0.0100 | States visited: 298
+Episode 19500/20000 | Avg Reward: -144.66 | Epsilon: 0.0100 | States visited: 298
+Episode 19600/20000 | Avg Reward: -144.87 | Epsilon: 0.0100 | States visited: 298
+Episode 19700/20000 | Avg Reward: -150.99 | Epsilon: 0.0100 | States visited: 298
+Episode 19800/20000 | Avg Reward: -154.24 | Epsilon: 0.0100 | States visited: 298
+Episode 19900/20000 | Avg Reward: -151.35 | Epsilon: 0.0100 | States visited: 298
+Episode 20000/20000 | Avg Reward: -145.82 | Epsilon: 0.0100 | States visited: 298
+
+Resultados de la evaluación 
+
+
+Q-Learning agent for MountainCar-v0
+  Episodes trained : 20000
+  States visited   : 298 / 400
+  Epsilon          : 0.0100
+  LR / Gamma       : 0.1 / 0.99
+
+Evaluating (10 episodes) ...
+  Mean reward: -149.30 +/- 15.03
+  Reached the flag: 10/10 episodes
+
+
+- Cambio Hiperparametros 1
+
+        n_bins: int = 20,
+        lr: float = 0.1,
+        gamma: float = 0.95,
+        epsilon_start: float = 1.0,
+        epsilon_end: float = 0.01,
+        epsilon_decay: float = 0.9995,
+
+Resultados Entrenamiento
+
+Episode 100/20000 | Avg Reward: -200.00 | Epsilon: 0.9512 | States visited: 54
+Episode 200/20000 | Avg Reward: -200.00 | Epsilon: 0.9048 | States visited: 73
+Episode 300/20000 | Avg Reward: -200.00 | Epsilon: 0.8607 | States visited: 97
+Episode 400/20000 | Avg Reward: -200.00 | Epsilon: 0.8187 | States visited: 107
+Episode 500/20000 | Avg Reward: -200.00 | Epsilon: 0.7788 | States visited: 114
+Episode 600/20000 | Avg Reward: -200.00 | Epsilon: 0.7408 | States visited: 135
+Episode 700/20000 | Avg Reward: -200.00 | Epsilon: 0.7046 | States visited: 140
+Episode 800/20000 | Avg Reward: -200.00 | Epsilon: 0.6703 | States visited: 157
+Episode 900/20000 | Avg Reward: -200.00 | Epsilon: 0.6376 | States visited: 171
+Episode 1000/20000 | Avg Reward: -200.00 | Epsilon: 0.6065 | States visited: 184
+Episode 1100/20000 | Avg Reward: -200.00 | Epsilon: 0.5769 | States visited: 192
+Episode 1200/20000 | Avg Reward: -200.00 | Epsilon: 0.5487 | States visited: 209
+Episode 1300/20000 | Avg Reward: -200.00 | Epsilon: 0.5220 | States visited: 228
+Episode 1400/20000 | Avg Reward: -200.00 | Epsilon: 0.4965 | States visited: 235
+Episode 1500/20000 | Avg Reward: -200.00 | Epsilon: 0.4723 | States visited: 242
+Episode 1600/20000 | Avg Reward: -200.00 | Epsilon: 0.4492 | States visited: 246
+Episode 1700/20000 | Avg Reward: -200.00 | Epsilon: 0.4273 | States visited: 247
+Episode 1800/20000 | Avg Reward: -200.00 | Epsilon: 0.4065 | States visited: 248
+Episode 1900/20000 | Avg Reward: -199.67 | Epsilon: 0.3866 | States visited: 257
+Episode 2000/20000 | Avg Reward: -199.62 | Epsilon: 0.3678 | States visited: 259
+Episode 2100/20000 | Avg Reward: -198.80 | Epsilon: 0.3498 | States visited: 259
+Episode 2200/20000 | Avg Reward: -199.45 | Epsilon: 0.3328 | States visited: 262
+Episode 2300/20000 | Avg Reward: -199.63 | Epsilon: 0.3165 | States visited: 265
+Episode 2400/20000 | Avg Reward: -197.52 | Epsilon: 0.3011 | States visited: 271
+Episode 2500/20000 | Avg Reward: -197.84 | Epsilon: 0.2864 | States visited: 273
+Episode 2600/20000 | Avg Reward: -199.60 | Epsilon: 0.2724 | States visited: 275
+Episode 2700/20000 | Avg Reward: -197.26 | Epsilon: 0.2592 | States visited: 275
+Episode 2800/20000 | Avg Reward: -192.59 | Epsilon: 0.2465 | States visited: 278
+Episode 2900/20000 | Avg Reward: -189.10 | Epsilon: 0.2345 | States visited: 278
+Episode 3000/20000 | Avg Reward: -199.65 | Epsilon: 0.2230 | States visited: 278
+Episode 3100/20000 | Avg Reward: -195.35 | Epsilon: 0.2122 | States visited: 278
+Episode 3200/20000 | Avg Reward: -188.83 | Epsilon: 0.2018 | States visited: 279
+Episode 3300/20000 | Avg Reward: -196.55 | Epsilon: 0.1920 | States visited: 284
+Episode 3400/20000 | Avg Reward: -188.99 | Epsilon: 0.1826 | States visited: 284
+Episode 3500/20000 | Avg Reward: -189.46 | Epsilon: 0.1737 | States visited: 285
+Episode 3600/20000 | Avg Reward: -198.49 | Epsilon: 0.1652 | States visited: 285
+Episode 3700/20000 | Avg Reward: -189.75 | Epsilon: 0.1572 | States visited: 285
+Episode 3800/20000 | Avg Reward: -198.95 | Epsilon: 0.1495 | States visited: 285
+Episode 3900/20000 | Avg Reward: -199.33 | Epsilon: 0.1422 | States visited: 285
+Episode 4000/20000 | Avg Reward: -191.93 | Epsilon: 0.1353 | States visited: 286
+Episode 4100/20000 | Avg Reward: -195.45 | Epsilon: 0.1287 | States visited: 287
+Episode 4200/20000 | Avg Reward: -182.18 | Epsilon: 0.1224 | States visited: 288
+Episode 4300/20000 | Avg Reward: -184.04 | Epsilon: 0.1164 | States visited: 288
+Episode 4400/20000 | Avg Reward: -168.60 | Epsilon: 0.1107 | States visited: 290
+Episode 4500/20000 | Avg Reward: -169.69 | Epsilon: 0.1053 | States visited: 290
+Episode 4600/20000 | Avg Reward: -176.33 | Epsilon: 0.1002 | States visited: 294
+Episode 4700/20000 | Avg Reward: -171.72 | Epsilon: 0.0953 | States visited: 294
+Episode 4800/20000 | Avg Reward: -173.46 | Epsilon: 0.0907 | States visited: 294
+Episode 4900/20000 | Avg Reward: -189.39 | Epsilon: 0.0862 | States visited: 295
+Episode 5000/20000 | Avg Reward: -173.38 | Epsilon: 0.0820 | States visited: 298
+Episode 5100/20000 | Avg Reward: -171.56 | Epsilon: 0.0780 | States visited: 298
+Episode 5200/20000 | Avg Reward: -176.29 | Epsilon: 0.0742 | States visited: 298
+Episode 5300/20000 | Avg Reward: -191.02 | Epsilon: 0.0706 | States visited: 298
+Episode 5400/20000 | Avg Reward: -178.46 | Epsilon: 0.0672 | States visited: 298
+Episode 5500/20000 | Avg Reward: -186.65 | Epsilon: 0.0639 | States visited: 298
+Episode 5600/20000 | Avg Reward: -178.50 | Epsilon: 0.0608 | States visited: 298
+Episode 5700/20000 | Avg Reward: -173.46 | Epsilon: 0.0578 | States visited: 298
+Episode 5800/20000 | Avg Reward: -171.60 | Epsilon: 0.0550 | States visited: 298
+Episode 5900/20000 | Avg Reward: -173.02 | Epsilon: 0.0523 | States visited: 299
+Episode 6000/20000 | Avg Reward: -170.64 | Epsilon: 0.0497 | States visited: 299
+Episode 6100/20000 | Avg Reward: -180.11 | Epsilon: 0.0473 | States visited: 299
+Episode 6200/20000 | Avg Reward: -175.21 | Epsilon: 0.0450 | States visited: 299
+Episode 6300/20000 | Avg Reward: -158.89 | Epsilon: 0.0428 | States visited: 300
+Episode 6400/20000 | Avg Reward: -162.28 | Epsilon: 0.0407 | States visited: 300
+Episode 6500/20000 | Avg Reward: -175.39 | Epsilon: 0.0387 | States visited: 300
+Episode 6600/20000 | Avg Reward: -166.90 | Epsilon: 0.0369 | States visited: 301
+Episode 6700/20000 | Avg Reward: -166.96 | Epsilon: 0.0351 | States visited: 301
+Episode 6800/20000 | Avg Reward: -158.97 | Epsilon: 0.0333 | States visited: 302
+Episode 6900/20000 | Avg Reward: -154.99 | Epsilon: 0.0317 | States visited: 302
+Episode 7000/20000 | Avg Reward: -143.31 | Epsilon: 0.0302 | States visited: 302
+Episode 7100/20000 | Avg Reward: -140.11 | Epsilon: 0.0287 | States visited: 302
+Episode 7200/20000 | Avg Reward: -157.48 | Epsilon: 0.0273 | States visited: 302
+Episode 7300/20000 | Avg Reward: -165.72 | Epsilon: 0.0260 | States visited: 302
+Episode 7400/20000 | Avg Reward: -164.98 | Epsilon: 0.0247 | States visited: 302
+Episode 7500/20000 | Avg Reward: -167.77 | Epsilon: 0.0235 | States visited: 302
+Episode 7600/20000 | Avg Reward: -151.51 | Epsilon: 0.0223 | States visited: 302
+Episode 7700/20000 | Avg Reward: -148.31 | Epsilon: 0.0213 | States visited: 302
+Episode 7800/20000 | Avg Reward: -165.82 | Epsilon: 0.0202 | States visited: 302
+Episode 7900/20000 | Avg Reward: -169.95 | Epsilon: 0.0192 | States visited: 302
+Episode 8000/20000 | Avg Reward: -171.68 | Epsilon: 0.0183 | States visited: 302
+Episode 8100/20000 | Avg Reward: -164.74 | Epsilon: 0.0174 | States visited: 302
+Episode 8200/20000 | Avg Reward: -152.73 | Epsilon: 0.0166 | States visited: 302
+Episode 8300/20000 | Avg Reward: -148.27 | Epsilon: 0.0157 | States visited: 302
+Episode 8400/20000 | Avg Reward: -156.81 | Epsilon: 0.0150 | States visited: 302
+Episode 8500/20000 | Avg Reward: -160.88 | Epsilon: 0.0142 | States visited: 302
+Episode 8600/20000 | Avg Reward: -169.20 | Epsilon: 0.0136 | States visited: 302
+Episode 8700/20000 | Avg Reward: -169.12 | Epsilon: 0.0129 | States visited: 302
+Episode 8800/20000 | Avg Reward: -165.33 | Epsilon: 0.0123 | States visited: 302
+Episode 8900/20000 | Avg Reward: -145.08 | Epsilon: 0.0117 | States visited: 302
+Episode 9000/20000 | Avg Reward: -147.74 | Epsilon: 0.0111 | States visited: 302
+Episode 9100/20000 | Avg Reward: -166.26 | Epsilon: 0.0106 | States visited: 302
+Episode 9200/20000 | Avg Reward: -166.83 | Epsilon: 0.0100 | States visited: 302
+Episode 9300/20000 | Avg Reward: -156.04 | Epsilon: 0.0100 | States visited: 302
+Episode 9400/20000 | Avg Reward: -164.36 | Epsilon: 0.0100 | States visited: 302
+Episode 9500/20000 | Avg Reward: -144.03 | Epsilon: 0.0100 | States visited: 302
+Episode 9600/20000 | Avg Reward: -132.30 | Epsilon: 0.0100 | States visited: 302
+Episode 9700/20000 | Avg Reward: -136.53 | Epsilon: 0.0100 | States visited: 302
+Episode 9800/20000 | Avg Reward: -134.52 | Epsilon: 0.0100 | States visited: 302
+Episode 9900/20000 | Avg Reward: -132.16 | Epsilon: 0.0100 | States visited: 302
+Episode 10000/20000 | Avg Reward: -138.06 | Epsilon: 0.0100 | States visited: 302
+Episode 10100/20000 | Avg Reward: -139.31 | Epsilon: 0.0100 | States visited: 302
+Episode 10200/20000 | Avg Reward: -133.48 | Epsilon: 0.0100 | States visited: 302
+Episode 10300/20000 | Avg Reward: -138.11 | Epsilon: 0.0100 | States visited: 302
+Episode 10400/20000 | Avg Reward: -134.21 | Epsilon: 0.0100 | States visited: 302
+Episode 10500/20000 | Avg Reward: -144.47 | Epsilon: 0.0100 | States visited: 302
+Episode 10600/20000 | Avg Reward: -134.42 | Epsilon: 0.0100 | States visited: 302
+Episode 10700/20000 | Avg Reward: -135.36 | Epsilon: 0.0100 | States visited: 302
+Episode 10800/20000 | Avg Reward: -135.75 | Epsilon: 0.0100 | States visited: 302
+Episode 10900/20000 | Avg Reward: -138.50 | Epsilon: 0.0100 | States visited: 302
+Episode 11000/20000 | Avg Reward: -132.61 | Epsilon: 0.0100 | States visited: 302
+Episode 11100/20000 | Avg Reward: -133.35 | Epsilon: 0.0100 | States visited: 302
+Episode 11200/20000 | Avg Reward: -134.78 | Epsilon: 0.0100 | States visited: 302
+Episode 11300/20000 | Avg Reward: -132.23 | Epsilon: 0.0100 | States visited: 302
+Episode 11400/20000 | Avg Reward: -134.49 | Epsilon: 0.0100 | States visited: 302
+Episode 11500/20000 | Avg Reward: -135.66 | Epsilon: 0.0100 | States visited: 302
+Episode 11600/20000 | Avg Reward: -134.09 | Epsilon: 0.0100 | States visited: 302
+Episode 11700/20000 | Avg Reward: -133.82 | Epsilon: 0.0100 | States visited: 302
+Episode 11800/20000 | Avg Reward: -155.01 | Epsilon: 0.0100 | States visited: 302
+Episode 11900/20000 | Avg Reward: -195.53 | Epsilon: 0.0100 | States visited: 302
+Episode 12000/20000 | Avg Reward: -192.89 | Epsilon: 0.0100 | States visited: 302
+Episode 12100/20000 | Avg Reward: -177.63 | Epsilon: 0.0100 | States visited: 302
+Episode 12200/20000 | Avg Reward: -162.96 | Epsilon: 0.0100 | States visited: 302
+Episode 12300/20000 | Avg Reward: -170.81 | Epsilon: 0.0100 | States visited: 302
+Episode 12400/20000 | Avg Reward: -160.08 | Epsilon: 0.0100 | States visited: 302
+Episode 12500/20000 | Avg Reward: -170.93 | Epsilon: 0.0100 | States visited: 302
+Episode 12600/20000 | Avg Reward: -164.88 | Epsilon: 0.0100 | States visited: 302
+Episode 12700/20000 | Avg Reward: -160.90 | Epsilon: 0.0100 | States visited: 302
+Episode 12800/20000 | Avg Reward: -160.59 | Epsilon: 0.0100 | States visited: 302
+Episode 12900/20000 | Avg Reward: -160.48 | Epsilon: 0.0100 | States visited: 302
+Episode 13000/20000 | Avg Reward: -159.38 | Epsilon: 0.0100 | States visited: 302
+Episode 13100/20000 | Avg Reward: -159.88 | Epsilon: 0.0100 | States visited: 302
+Episode 13200/20000 | Avg Reward: -157.45 | Epsilon: 0.0100 | States visited: 302
+Episode 13300/20000 | Avg Reward: -162.99 | Epsilon: 0.0100 | States visited: 302
+Episode 13400/20000 | Avg Reward: -159.81 | Epsilon: 0.0100 | States visited: 302
+Episode 13500/20000 | Avg Reward: -167.65 | Epsilon: 0.0100 | States visited: 302
+Episode 13600/20000 | Avg Reward: -164.18 | Epsilon: 0.0100 | States visited: 302
+Episode 13700/20000 | Avg Reward: -165.38 | Epsilon: 0.0100 | States visited: 302
+Episode 13800/20000 | Avg Reward: -162.17 | Epsilon: 0.0100 | States visited: 302
+Episode 13900/20000 | Avg Reward: -165.91 | Epsilon: 0.0100 | States visited: 302
+Episode 14000/20000 | Avg Reward: -163.33 | Epsilon: 0.0100 | States visited: 302
+Episode 14100/20000 | Avg Reward: -175.99 | Epsilon: 0.0100 | States visited: 302
+Episode 14200/20000 | Avg Reward: -161.09 | Epsilon: 0.0100 | States visited: 302
+Episode 14300/20000 | Avg Reward: -167.98 | Epsilon: 0.0100 | States visited: 302
+Episode 14400/20000 | Avg Reward: -159.14 | Epsilon: 0.0100 | States visited: 302
+Episode 14500/20000 | Avg Reward: -163.37 | Epsilon: 0.0100 | States visited: 302
+Episode 14600/20000 | Avg Reward: -157.32 | Epsilon: 0.0100 | States visited: 302
+Episode 14700/20000 | Avg Reward: -146.84 | Epsilon: 0.0100 | States visited: 302
+Episode 14800/20000 | Avg Reward: -142.42 | Epsilon: 0.0100 | States visited: 302
+Episode 14900/20000 | Avg Reward: -141.22 | Epsilon: 0.0100 | States visited: 302
+Episode 15000/20000 | Avg Reward: -147.67 | Epsilon: 0.0100 | States visited: 302
+Episode 15100/20000 | Avg Reward: -151.84 | Epsilon: 0.0100 | States visited: 302
+Episode 15200/20000 | Avg Reward: -150.71 | Epsilon: 0.0100 | States visited: 302
+Episode 15300/20000 | Avg Reward: -145.94 | Epsilon: 0.0100 | States visited: 302
+Episode 15400/20000 | Avg Reward: -143.10 | Epsilon: 0.0100 | States visited: 302
+Episode 15500/20000 | Avg Reward: -139.49 | Epsilon: 0.0100 | States visited: 302
+Episode 15600/20000 | Avg Reward: -138.78 | Epsilon: 0.0100 | States visited: 302
+Episode 15700/20000 | Avg Reward: -134.92 | Epsilon: 0.0100 | States visited: 302
+Episode 15800/20000 | Avg Reward: -141.43 | Epsilon: 0.0100 | States visited: 302
+Episode 15900/20000 | Avg Reward: -137.98 | Epsilon: 0.0100 | States visited: 302
+Episode 16000/20000 | Avg Reward: -141.32 | Epsilon: 0.0100 | States visited: 302
+Episode 16100/20000 | Avg Reward: -138.59 | Epsilon: 0.0100 | States visited: 302
+Episode 16200/20000 | Avg Reward: -143.12 | Epsilon: 0.0100 | States visited: 302
+Episode 16300/20000 | Avg Reward: -149.63 | Epsilon: 0.0100 | States visited: 302
+Episode 16400/20000 | Avg Reward: -147.45 | Epsilon: 0.0100 | States visited: 302
+Episode 16500/20000 | Avg Reward: -139.12 | Epsilon: 0.0100 | States visited: 302
+Episode 16600/20000 | Avg Reward: -139.68 | Epsilon: 0.0100 | States visited: 302
+Episode 16700/20000 | Avg Reward: -135.68 | Epsilon: 0.0100 | States visited: 302
+Episode 16800/20000 | Avg Reward: -133.67 | Epsilon: 0.0100 | States visited: 302
+Episode 16900/20000 | Avg Reward: -135.42 | Epsilon: 0.0100 | States visited: 302
+Episode 17000/20000 | Avg Reward: -135.44 | Epsilon: 0.0100 | States visited: 302
+Episode 17100/20000 | Avg Reward: -134.70 | Epsilon: 0.0100 | States visited: 302
+Episode 17200/20000 | Avg Reward: -139.41 | Epsilon: 0.0100 | States visited: 302
+Episode 17300/20000 | Avg Reward: -146.94 | Epsilon: 0.0100 | States visited: 302
+Episode 17400/20000 | Avg Reward: -145.38 | Epsilon: 0.0100 | States visited: 302
+Episode 17500/20000 | Avg Reward: -152.39 | Epsilon: 0.0100 | States visited: 302
+Episode 17600/20000 | Avg Reward: -137.87 | Epsilon: 0.0100 | States visited: 302
+Episode 17700/20000 | Avg Reward: -137.74 | Epsilon: 0.0100 | States visited: 302
+Episode 17800/20000 | Avg Reward: -151.71 | Epsilon: 0.0100 | States visited: 302
+Episode 17900/20000 | Avg Reward: -166.27 | Epsilon: 0.0100 | States visited: 302
+Episode 18000/20000 | Avg Reward: -161.65 | Epsilon: 0.0100 | States visited: 302
+Episode 18100/20000 | Avg Reward: -163.40 | Epsilon: 0.0100 | States visited: 302
+Episode 18200/20000 | Avg Reward: -162.35 | Epsilon: 0.0100 | States visited: 302
+Episode 18300/20000 | Avg Reward: -180.51 | Epsilon: 0.0100 | States visited: 302
+Episode 18400/20000 | Avg Reward: -165.41 | Epsilon: 0.0100 | States visited: 302
+Episode 18500/20000 | Avg Reward: -160.67 | Epsilon: 0.0100 | States visited: 302
+Episode 18600/20000 | Avg Reward: -162.93 | Epsilon: 0.0100 | States visited: 302
+Episode 18700/20000 | Avg Reward: -167.83 | Epsilon: 0.0100 | States visited: 302
+Episode 18800/20000 | Avg Reward: -166.84 | Epsilon: 0.0100 | States visited: 302
+Episode 18900/20000 | Avg Reward: -163.53 | Epsilon: 0.0100 | States visited: 302
+Episode 19000/20000 | Avg Reward: -156.00 | Epsilon: 0.0100 | States visited: 302
+Episode 19100/20000 | Avg Reward: -153.85 | Epsilon: 0.0100 | States visited: 302
+Episode 19200/20000 | Avg Reward: -150.43 | Epsilon: 0.0100 | States visited: 302
+Episode 19300/20000 | Avg Reward: -176.16 | Epsilon: 0.0100 | States visited: 302
+Episode 19400/20000 | Avg Reward: -164.87 | Epsilon: 0.0100 | States visited: 302
+Episode 19500/20000 | Avg Reward: -178.63 | Epsilon: 0.0100 | States visited: 302
+Episode 19600/20000 | Avg Reward: -174.05 | Epsilon: 0.0100 | States visited: 302
+Episode 19700/20000 | Avg Reward: -172.76 | Epsilon: 0.0100 | States visited: 302
+Episode 19800/20000 | Avg Reward: -168.52 | Epsilon: 0.0100 | States visited: 302
+Episode 19900/20000 | Avg Reward: -169.51 | Epsilon: 0.0100 | States visited: 302
+Episode 20000/20000 | Avg Reward: -163.23 | Epsilon: 0.0100 | States visited: 302
+
+Resultados de la evaluación 
+
+Q-Learning agent for MountainCar-v0
+  Episodes trained : 20000
+  States visited   : 302 / 400
+  Epsilon          : 0.0100
+  LR / Gamma       : 0.1 / 0.95
+
+Evaluating (10 episodes) ...
+  Mean reward: -168.20 +/- 21.72
+  Reached the flag: 10/10 episodes
+
+- Cambio Hiperparametros 2
+
+        n_bins: int = 20,
+        lr: float = 0.3,
+        gamma: float = 0.95,
+        epsilon_start: float = 1.0,
+        epsilon_end: float = 0.01,
+        epsilon_decay: float = 0.9995,
+
+Resultados Entrenamiento
+
+Episode 100/20000 | Avg Reward: -200.00 | Epsilon: 0.9512 | States visited: 59
+Episode 200/20000 | Avg Reward: -200.00 | Epsilon: 0.9048 | States visited: 78
+Episode 300/20000 | Avg Reward: -200.00 | Epsilon: 0.8607 | States visited: 96
+Episode 400/20000 | Avg Reward: -200.00 | Epsilon: 0.8187 | States visited: 100
+Episode 500/20000 | Avg Reward: -200.00 | Epsilon: 0.7788 | States visited: 100
+Episode 600/20000 | Avg Reward: -200.00 | Epsilon: 0.7408 | States visited: 102
+Episode 700/20000 | Avg Reward: -200.00 | Epsilon: 0.7046 | States visited: 119
+Episode 800/20000 | Avg Reward: -200.00 | Epsilon: 0.6703 | States visited: 132
+Episode 900/20000 | Avg Reward: -200.00 | Epsilon: 0.6376 | States visited: 144
+Episode 1000/20000 | Avg Reward: -200.00 | Epsilon: 0.6065 | States visited: 151
+Episode 1100/20000 | Avg Reward: -200.00 | Epsilon: 0.5769 | States visited: 176
+Episode 1200/20000 | Avg Reward: -200.00 | Epsilon: 0.5487 | States visited: 178
+Episode 1300/20000 | Avg Reward: -200.00 | Epsilon: 0.5220 | States visited: 181
+Episode 1400/20000 | Avg Reward: -200.00 | Epsilon: 0.4965 | States visited: 186
+Episode 1500/20000 | Avg Reward: -200.00 | Epsilon: 0.4723 | States visited: 186
+Episode 1600/20000 | Avg Reward: -200.00 | Epsilon: 0.4492 | States visited: 193
+Episode 1700/20000 | Avg Reward: -200.00 | Epsilon: 0.4273 | States visited: 221
+Episode 1800/20000 | Avg Reward: -200.00 | Epsilon: 0.4065 | States visited: 221
+Episode 1900/20000 | Avg Reward: -200.00 | Epsilon: 0.3866 | States visited: 227
+Episode 2000/20000 | Avg Reward: -200.00 | Epsilon: 0.3678 | States visited: 230
+Episode 2100/20000 | Avg Reward: -200.00 | Epsilon: 0.3498 | States visited: 236
+Episode 2200/20000 | Avg Reward: -200.00 | Epsilon: 0.3328 | States visited: 240
+Episode 2300/20000 | Avg Reward: -200.00 | Epsilon: 0.3165 | States visited: 240
+Episode 2400/20000 | Avg Reward: -199.71 | Epsilon: 0.3011 | States visited: 249
+Episode 2500/20000 | Avg Reward: -199.67 | Epsilon: 0.2864 | States visited: 252
+Episode 2600/20000 | Avg Reward: -200.00 | Epsilon: 0.2724 | States visited: 256
+Episode 2700/20000 | Avg Reward: -199.11 | Epsilon: 0.2592 | States visited: 266
+Episode 2800/20000 | Avg Reward: -199.71 | Epsilon: 0.2465 | States visited: 266
+Episode 2900/20000 | Avg Reward: -198.07 | Epsilon: 0.2345 | States visited: 266
+Episode 3000/20000 | Avg Reward: -199.87 | Epsilon: 0.2230 | States visited: 269
+Episode 3100/20000 | Avg Reward: -199.07 | Epsilon: 0.2122 | States visited: 271
+Episode 3200/20000 | Avg Reward: -196.68 | Epsilon: 0.2018 | States visited: 271
+Episode 3300/20000 | Avg Reward: -197.98 | Epsilon: 0.1920 | States visited: 271
+Episode 3400/20000 | Avg Reward: -199.87 | Epsilon: 0.1826 | States visited: 276
+Episode 3500/20000 | Avg Reward: -196.61 | Epsilon: 0.1737 | States visited: 279
+Episode 3600/20000 | Avg Reward: -197.49 | Epsilon: 0.1652 | States visited: 279
+Episode 3700/20000 | Avg Reward: -196.67 | Epsilon: 0.1572 | States visited: 284
+Episode 3800/20000 | Avg Reward: -194.38 | Epsilon: 0.1495 | States visited: 284
+Episode 3900/20000 | Avg Reward: -197.02 | Epsilon: 0.1422 | States visited: 285
+Episode 4000/20000 | Avg Reward: -198.33 | Epsilon: 0.1353 | States visited: 285
+Episode 4100/20000 | Avg Reward: -196.06 | Epsilon: 0.1287 | States visited: 285
+Episode 4200/20000 | Avg Reward: -196.23 | Epsilon: 0.1224 | States visited: 285
+Episode 4300/20000 | Avg Reward: -197.83 | Epsilon: 0.1164 | States visited: 285
+Episode 4400/20000 | Avg Reward: -196.19 | Epsilon: 0.1107 | States visited: 285
+Episode 4500/20000 | Avg Reward: -197.27 | Epsilon: 0.1053 | States visited: 285
+Episode 4600/20000 | Avg Reward: -194.08 | Epsilon: 0.1002 | States visited: 285
+Episode 4700/20000 | Avg Reward: -196.01 | Epsilon: 0.0953 | States visited: 285
+Episode 4800/20000 | Avg Reward: -197.65 | Epsilon: 0.0907 | States visited: 285
+Episode 4900/20000 | Avg Reward: -190.15 | Epsilon: 0.0862 | States visited: 285
+Episode 5000/20000 | Avg Reward: -196.24 | Epsilon: 0.0820 | States visited: 285
+Episode 5100/20000 | Avg Reward: -190.66 | Epsilon: 0.0780 | States visited: 285
+Episode 5200/20000 | Avg Reward: -180.07 | Epsilon: 0.0742 | States visited: 285
+Episode 5300/20000 | Avg Reward: -190.51 | Epsilon: 0.0706 | States visited: 285
+Episode 5400/20000 | Avg Reward: -194.61 | Epsilon: 0.0672 | States visited: 285
+Episode 5500/20000 | Avg Reward: -197.44 | Epsilon: 0.0639 | States visited: 285
+Episode 5600/20000 | Avg Reward: -191.03 | Epsilon: 0.0608 | States visited: 287
+Episode 5700/20000 | Avg Reward: -192.20 | Epsilon: 0.0578 | States visited: 287
+Episode 5800/20000 | Avg Reward: -190.66 | Epsilon: 0.0550 | States visited: 287
+Episode 5900/20000 | Avg Reward: -182.54 | Epsilon: 0.0523 | States visited: 287
+Episode 6000/20000 | Avg Reward: -184.23 | Epsilon: 0.0497 | States visited: 287
+Episode 6100/20000 | Avg Reward: -196.52 | Epsilon: 0.0473 | States visited: 287
+Episode 6200/20000 | Avg Reward: -177.80 | Epsilon: 0.0450 | States visited: 287
+Episode 6300/20000 | Avg Reward: -170.38 | Epsilon: 0.0428 | States visited: 287
+Episode 6400/20000 | Avg Reward: -195.31 | Epsilon: 0.0407 | States visited: 287
+Episode 6500/20000 | Avg Reward: -191.09 | Epsilon: 0.0387 | States visited: 287
+Episode 6600/20000 | Avg Reward: -186.54 | Epsilon: 0.0369 | States visited: 287
+Episode 6700/20000 | Avg Reward: -178.40 | Epsilon: 0.0351 | States visited: 287
+Episode 6800/20000 | Avg Reward: -184.02 | Epsilon: 0.0333 | States visited: 287
+Episode 6900/20000 | Avg Reward: -190.06 | Epsilon: 0.0317 | States visited: 287
+Episode 7000/20000 | Avg Reward: -179.07 | Epsilon: 0.0302 | States visited: 287
+Episode 7100/20000 | Avg Reward: -174.88 | Epsilon: 0.0287 | States visited: 287
+Episode 7200/20000 | Avg Reward: -175.95 | Epsilon: 0.0273 | States visited: 287
+Episode 7300/20000 | Avg Reward: -175.68 | Epsilon: 0.0260 | States visited: 287
+Episode 7400/20000 | Avg Reward: -171.12 | Epsilon: 0.0247 | States visited: 287
+Episode 7500/20000 | Avg Reward: -181.32 | Epsilon: 0.0235 | States visited: 288
+Episode 7600/20000 | Avg Reward: -167.20 | Epsilon: 0.0223 | States visited: 288
+Episode 7700/20000 | Avg Reward: -157.44 | Epsilon: 0.0213 | States visited: 288
+Episode 7800/20000 | Avg Reward: -164.45 | Epsilon: 0.0202 | States visited: 288
+Episode 7900/20000 | Avg Reward: -188.12 | Epsilon: 0.0192 | States visited: 289
+Episode 8000/20000 | Avg Reward: -184.39 | Epsilon: 0.0183 | States visited: 289
+Episode 8100/20000 | Avg Reward: -184.71 | Epsilon: 0.0174 | States visited: 289
+Episode 8200/20000 | Avg Reward: -188.30 | Epsilon: 0.0166 | States visited: 289
+Episode 8300/20000 | Avg Reward: -185.85 | Epsilon: 0.0157 | States visited: 290
+Episode 8400/20000 | Avg Reward: -185.70 | Epsilon: 0.0150 | States visited: 290
+Episode 8500/20000 | Avg Reward: -171.96 | Epsilon: 0.0142 | States visited: 290
+Episode 8600/20000 | Avg Reward: -184.67 | Epsilon: 0.0136 | States visited: 290
+Episode 8700/20000 | Avg Reward: -167.18 | Epsilon: 0.0129 | States visited: 290
+Episode 8800/20000 | Avg Reward: -189.66 | Epsilon: 0.0123 | States visited: 290
+Episode 8900/20000 | Avg Reward: -177.32 | Epsilon: 0.0117 | States visited: 290
+Episode 9000/20000 | Avg Reward: -173.81 | Epsilon: 0.0111 | States visited: 290
+Episode 9100/20000 | Avg Reward: -170.84 | Epsilon: 0.0106 | States visited: 290
+Episode 9200/20000 | Avg Reward: -174.36 | Epsilon: 0.0100 | States visited: 290
+Episode 9300/20000 | Avg Reward: -173.40 | Epsilon: 0.0100 | States visited: 290
+Episode 9400/20000 | Avg Reward: -165.25 | Epsilon: 0.0100 | States visited: 290
+Episode 9500/20000 | Avg Reward: -160.52 | Epsilon: 0.0100 | States visited: 290
+Episode 9600/20000 | Avg Reward: -168.80 | Epsilon: 0.0100 | States visited: 290
+Episode 9700/20000 | Avg Reward: -175.22 | Epsilon: 0.0100 | States visited: 290
+Episode 9800/20000 | Avg Reward: -178.06 | Epsilon: 0.0100 | States visited: 290
+Episode 9900/20000 | Avg Reward: -173.40 | Epsilon: 0.0100 | States visited: 290
+Episode 10000/20000 | Avg Reward: -165.94 | Epsilon: 0.0100 | States visited: 290
+Episode 10100/20000 | Avg Reward: -178.20 | Epsilon: 0.0100 | States visited: 290
+Episode 10200/20000 | Avg Reward: -173.48 | Epsilon: 0.0100 | States visited: 290
+Episode 10300/20000 | Avg Reward: -161.91 | Epsilon: 0.0100 | States visited: 290
+Episode 10400/20000 | Avg Reward: -157.98 | Epsilon: 0.0100 | States visited: 290
+Episode 10500/20000 | Avg Reward: -178.12 | Epsilon: 0.0100 | States visited: 290
+Episode 10600/20000 | Avg Reward: -181.57 | Epsilon: 0.0100 | States visited: 290
+Episode 10700/20000 | Avg Reward: -171.54 | Epsilon: 0.0100 | States visited: 290
+Episode 10800/20000 | Avg Reward: -185.67 | Epsilon: 0.0100 | States visited: 290
+Episode 10900/20000 | Avg Reward: -185.93 | Epsilon: 0.0100 | States visited: 290
+Episode 11000/20000 | Avg Reward: -189.41 | Epsilon: 0.0100 | States visited: 290
+Episode 11100/20000 | Avg Reward: -162.50 | Epsilon: 0.0100 | States visited: 290
+Episode 11200/20000 | Avg Reward: -183.49 | Epsilon: 0.0100 | States visited: 290
+Episode 11300/20000 | Avg Reward: -177.41 | Epsilon: 0.0100 | States visited: 290
+Episode 11400/20000 | Avg Reward: -158.01 | Epsilon: 0.0100 | States visited: 290
+Episode 11500/20000 | Avg Reward: -160.69 | Epsilon: 0.0100 | States visited: 290
+Episode 11600/20000 | Avg Reward: -157.60 | Epsilon: 0.0100 | States visited: 290
+Episode 11700/20000 | Avg Reward: -149.41 | Epsilon: 0.0100 | States visited: 290
+Episode 11800/20000 | Avg Reward: -154.99 | Epsilon: 0.0100 | States visited: 290
+Episode 11900/20000 | Avg Reward: -155.86 | Epsilon: 0.0100 | States visited: 290
+Episode 12000/20000 | Avg Reward: -186.69 | Epsilon: 0.0100 | States visited: 290
+Episode 12100/20000 | Avg Reward: -197.41 | Epsilon: 0.0100 | States visited: 290
+Episode 12200/20000 | Avg Reward: -195.69 | Epsilon: 0.0100 | States visited: 290
+Episode 12300/20000 | Avg Reward: -189.26 | Epsilon: 0.0100 | States visited: 290
+Episode 12400/20000 | Avg Reward: -174.56 | Epsilon: 0.0100 | States visited: 290
+Episode 12500/20000 | Avg Reward: -173.43 | Epsilon: 0.0100 | States visited: 290
+Episode 12600/20000 | Avg Reward: -173.06 | Epsilon: 0.0100 | States visited: 290
+Episode 12700/20000 | Avg Reward: -183.07 | Epsilon: 0.0100 | States visited: 290
+Episode 12800/20000 | Avg Reward: -167.56 | Epsilon: 0.0100 | States visited: 290
+Episode 12900/20000 | Avg Reward: -172.43 | Epsilon: 0.0100 | States visited: 290
+Episode 13000/20000 | Avg Reward: -190.94 | Epsilon: 0.0100 | States visited: 290
+Episode 13100/20000 | Avg Reward: -181.76 | Epsilon: 0.0100 | States visited: 290
+Episode 13200/20000 | Avg Reward: -161.22 | Epsilon: 0.0100 | States visited: 290
+Episode 13300/20000 | Avg Reward: -169.48 | Epsilon: 0.0100 | States visited: 290
+Episode 13400/20000 | Avg Reward: -174.96 | Epsilon: 0.0100 | States visited: 290
+Episode 13500/20000 | Avg Reward: -171.61 | Epsilon: 0.0100 | States visited: 290
+Episode 13600/20000 | Avg Reward: -176.05 | Epsilon: 0.0100 | States visited: 290
+Episode 13700/20000 | Avg Reward: -177.22 | Epsilon: 0.0100 | States visited: 290
+Episode 13800/20000 | Avg Reward: -173.32 | Epsilon: 0.0100 | States visited: 290
+Episode 13900/20000 | Avg Reward: -187.00 | Epsilon: 0.0100 | States visited: 290
+Episode 14000/20000 | Avg Reward: -184.66 | Epsilon: 0.0100 | States visited: 290
+Episode 14100/20000 | Avg Reward: -158.43 | Epsilon: 0.0100 | States visited: 290
+Episode 14200/20000 | Avg Reward: -165.83 | Epsilon: 0.0100 | States visited: 290
+Episode 14300/20000 | Avg Reward: -164.88 | Epsilon: 0.0100 | States visited: 290
+Episode 14400/20000 | Avg Reward: -176.44 | Epsilon: 0.0100 | States visited: 290
+Episode 14500/20000 | Avg Reward: -180.33 | Epsilon: 0.0100 | States visited: 290
+Episode 14600/20000 | Avg Reward: -174.16 | Epsilon: 0.0100 | States visited: 290
+Episode 14700/20000 | Avg Reward: -185.87 | Epsilon: 0.0100 | States visited: 290
+Episode 14800/20000 | Avg Reward: -160.69 | Epsilon: 0.0100 | States visited: 290
+Episode 14900/20000 | Avg Reward: -151.35 | Epsilon: 0.0100 | States visited: 290
+Episode 15000/20000 | Avg Reward: -155.43 | Epsilon: 0.0100 | States visited: 290
+Episode 15100/20000 | Avg Reward: -164.82 | Epsilon: 0.0100 | States visited: 293
+Episode 15200/20000 | Avg Reward: -168.06 | Epsilon: 0.0100 | States visited: 293
+Episode 15300/20000 | Avg Reward: -158.15 | Epsilon: 0.0100 | States visited: 293
+Episode 15400/20000 | Avg Reward: -157.38 | Epsilon: 0.0100 | States visited: 293
+Episode 15500/20000 | Avg Reward: -176.82 | Epsilon: 0.0100 | States visited: 293
+Episode 15600/20000 | Avg Reward: -195.52 | Epsilon: 0.0100 | States visited: 293
+Episode 15700/20000 | Avg Reward: -193.31 | Epsilon: 0.0100 | States visited: 293
+Episode 15800/20000 | Avg Reward: -191.18 | Epsilon: 0.0100 | States visited: 293
+Episode 15900/20000 | Avg Reward: -187.15 | Epsilon: 0.0100 | States visited: 293
+Episode 16000/20000 | Avg Reward: -175.82 | Epsilon: 0.0100 | States visited: 293
+Episode 16100/20000 | Avg Reward: -165.77 | Epsilon: 0.0100 | States visited: 293
+Episode 16200/20000 | Avg Reward: -192.34 | Epsilon: 0.0100 | States visited: 293
+Episode 16300/20000 | Avg Reward: -178.55 | Epsilon: 0.0100 | States visited: 293
+Episode 16400/20000 | Avg Reward: -192.12 | Epsilon: 0.0100 | States visited: 293
+Episode 16500/20000 | Avg Reward: -170.83 | Epsilon: 0.0100 | States visited: 293
+Episode 16600/20000 | Avg Reward: -163.62 | Epsilon: 0.0100 | States visited: 293
+Episode 16700/20000 | Avg Reward: -182.84 | Epsilon: 0.0100 | States visited: 293
+Episode 16800/20000 | Avg Reward: -193.40 | Epsilon: 0.0100 | States visited: 293
+Episode 16900/20000 | Avg Reward: -197.96 | Epsilon: 0.0100 | States visited: 293
+Episode 17000/20000 | Avg Reward: -182.46 | Epsilon: 0.0100 | States visited: 293
+Episode 17100/20000 | Avg Reward: -180.95 | Epsilon: 0.0100 | States visited: 293
+Episode 17200/20000 | Avg Reward: -172.05 | Epsilon: 0.0100 | States visited: 293
+Episode 17300/20000 | Avg Reward: -155.54 | Epsilon: 0.0100 | States visited: 293
+Episode 17400/20000 | Avg Reward: -149.10 | Epsilon: 0.0100 | States visited: 293
+Episode 17500/20000 | Avg Reward: -147.68 | Epsilon: 0.0100 | States visited: 293
+Episode 17600/20000 | Avg Reward: -148.87 | Epsilon: 0.0100 | States visited: 293
+Episode 17700/20000 | Avg Reward: -147.40 | Epsilon: 0.0100 | States visited: 293
+Episode 17800/20000 | Avg Reward: -158.08 | Epsilon: 0.0100 | States visited: 293
+Episode 17900/20000 | Avg Reward: -171.40 | Epsilon: 0.0100 | States visited: 293
+Episode 18000/20000 | Avg Reward: -163.68 | Epsilon: 0.0100 | States visited: 293
+Episode 18100/20000 | Avg Reward: -171.86 | Epsilon: 0.0100 | States visited: 293
+Episode 18200/20000 | Avg Reward: -191.47 | Epsilon: 0.0100 | States visited: 293
+Episode 18300/20000 | Avg Reward: -194.18 | Epsilon: 0.0100 | States visited: 293
+Episode 18400/20000 | Avg Reward: -195.36 | Epsilon: 0.0100 | States visited: 293
+Episode 18500/20000 | Avg Reward: -187.74 | Epsilon: 0.0100 | States visited: 293
+Episode 18600/20000 | Avg Reward: -179.99 | Epsilon: 0.0100 | States visited: 293
+Episode 18700/20000 | Avg Reward: -173.42 | Epsilon: 0.0100 | States visited: 293
+Episode 18800/20000 | Avg Reward: -155.15 | Epsilon: 0.0100 | States visited: 293
+Episode 18900/20000 | Avg Reward: -143.99 | Epsilon: 0.0100 | States visited: 293
+Episode 19000/20000 | Avg Reward: -147.62 | Epsilon: 0.0100 | States visited: 293
+Episode 19100/20000 | Avg Reward: -140.21 | Epsilon: 0.0100 | States visited: 293
+Episode 19200/20000 | Avg Reward: -146.72 | Epsilon: 0.0100 | States visited: 293
+Episode 19300/20000 | Avg Reward: -148.98 | Epsilon: 0.0100 | States visited: 293
+Episode 19400/20000 | Avg Reward: -166.95 | Epsilon: 0.0100 | States visited: 293
+Episode 19500/20000 | Avg Reward: -173.47 | Epsilon: 0.0100 | States visited: 293
+Episode 19600/20000 | Avg Reward: -180.46 | Epsilon: 0.0100 | States visited: 293
+Episode 19700/20000 | Avg Reward: -181.18 | Epsilon: 0.0100 | States visited: 293
+Episode 19800/20000 | Avg Reward: -186.47 | Epsilon: 0.0100 | States visited: 293
+Episode 19900/20000 | Avg Reward: -185.80 | Epsilon: 0.0100 | States visited: 293
+Episode 20000/20000 | Avg Reward: -186.99 | Epsilon: 0.0100 | States visited: 293
+
+Resultados de la evaluación 
+
+Q-Learning agent for MountainCar-v0
+  Episodes trained : 20000
+  States visited   : 293 / 400
+  Epsilon          : 0.0100
+  LR / Gamma       : 0.3 / 0.95
+
+Evaluating (10 episodes) ...
+  Mean reward: -200.00 +/- 0.00
+  Reached the flag: 0/10 episodes
+
+- Cambio Hiperparametros 3
+
+
+        n_bins: int = 20,
+        lr: float = 0.3,
+        gamma: float = 0.95,
+        epsilon_start: float = 1.0,
+        epsilon_end: float = 0.01,
+        epsilon_decay: float = 0.99995,
+
+Resultados Entrenamiento
+
+Episode 100/20000 | Avg Reward: -200.00 | Epsilon: 0.9512 | States visited: 59
+Episode 200/20000 | Avg Reward: -200.00 | Epsilon: 0.9048 | States visited: 78
+Episode 300/20000 | Avg Reward: -200.00 | Epsilon: 0.8607 | States visited: 96
+Episode 400/20000 | Avg Reward: -200.00 | Epsilon: 0.8187 | States visited: 100
+Episode 500/20000 | Avg Reward: -200.00 | Epsilon: 0.7788 | States visited: 100
+Episode 600/20000 | Avg Reward: -200.00 | Epsilon: 0.7408 | States visited: 102
+Episode 700/20000 | Avg Reward: -200.00 | Epsilon: 0.7046 | States visited: 119
+Episode 800/20000 | Avg Reward: -200.00 | Epsilon: 0.6703 | States visited: 132
+Episode 900/20000 | Avg Reward: -200.00 | Epsilon: 0.6376 | States visited: 144
+Episode 1000/20000 | Avg Reward: -200.00 | Epsilon: 0.6065 | States visited: 151
+Episode 1100/20000 | Avg Reward: -200.00 | Epsilon: 0.5769 | States visited: 176
+Episode 1200/20000 | Avg Reward: -200.00 | Epsilon: 0.5487 | States visited: 178
+Episode 1300/20000 | Avg Reward: -200.00 | Epsilon: 0.5220 | States visited: 181
+Episode 1400/20000 | Avg Reward: -200.00 | Epsilon: 0.4965 | States visited: 186
+Episode 1500/20000 | Avg Reward: -200.00 | Epsilon: 0.4723 | States visited: 186
+Episode 1600/20000 | Avg Reward: -200.00 | Epsilon: 0.4492 | States visited: 193
+Episode 1700/20000 | Avg Reward: -200.00 | Epsilon: 0.4273 | States visited: 221
+Episode 1800/20000 | Avg Reward: -200.00 | Epsilon: 0.4065 | States visited: 221
+Episode 1900/20000 | Avg Reward: -200.00 | Epsilon: 0.3866 | States visited: 227
+Episode 2000/20000 | Avg Reward: -200.00 | Epsilon: 0.3678 | States visited: 230
+Episode 2100/20000 | Avg Reward: -200.00 | Epsilon: 0.3498 | States visited: 236
+Episode 2200/20000 | Avg Reward: -200.00 | Epsilon: 0.3328 | States visited: 240
+Episode 2300/20000 | Avg Reward: -200.00 | Epsilon: 0.3165 | States visited: 240
+Episode 2400/20000 | Avg Reward: -199.71 | Epsilon: 0.3011 | States visited: 249
+Episode 2500/20000 | Avg Reward: -199.67 | Epsilon: 0.2864 | States visited: 252
+Episode 2600/20000 | Avg Reward: -200.00 | Epsilon: 0.2724 | States visited: 256
+Episode 2700/20000 | Avg Reward: -199.11 | Epsilon: 0.2592 | States visited: 266
+Episode 2800/20000 | Avg Reward: -199.71 | Epsilon: 0.2465 | States visited: 266
+Episode 2900/20000 | Avg Reward: -198.07 | Epsilon: 0.2345 | States visited: 266
+Episode 3000/20000 | Avg Reward: -199.87 | Epsilon: 0.2230 | States visited: 269
+Episode 3100/20000 | Avg Reward: -199.07 | Epsilon: 0.2122 | States visited: 271
+Episode 3200/20000 | Avg Reward: -196.68 | Epsilon: 0.2018 | States visited: 271
+Episode 3300/20000 | Avg Reward: -197.98 | Epsilon: 0.1920 | States visited: 271
+Episode 3400/20000 | Avg Reward: -199.87 | Epsilon: 0.1826 | States visited: 276
+Episode 3500/20000 | Avg Reward: -196.61 | Epsilon: 0.1737 | States visited: 279
+Episode 3600/20000 | Avg Reward: -197.49 | Epsilon: 0.1652 | States visited: 279
+Episode 3700/20000 | Avg Reward: -196.67 | Epsilon: 0.1572 | States visited: 284
+Episode 3800/20000 | Avg Reward: -194.38 | Epsilon: 0.1495 | States visited: 284
+Episode 3900/20000 | Avg Reward: -197.02 | Epsilon: 0.1422 | States visited: 285
+Episode 4000/20000 | Avg Reward: -198.33 | Epsilon: 0.1353 | States visited: 285
+Episode 4100/20000 | Avg Reward: -196.06 | Epsilon: 0.1287 | States visited: 285
+Episode 4200/20000 | Avg Reward: -196.23 | Epsilon: 0.1224 | States visited: 285
+Episode 4300/20000 | Avg Reward: -197.83 | Epsilon: 0.1164 | States visited: 285
+Episode 4400/20000 | Avg Reward: -196.19 | Epsilon: 0.1107 | States visited: 285
+Episode 4500/20000 | Avg Reward: -197.27 | Epsilon: 0.1053 | States visited: 285
+Episode 4600/20000 | Avg Reward: -194.08 | Epsilon: 0.1002 | States visited: 285
+Episode 4700/20000 | Avg Reward: -196.01 | Epsilon: 0.0953 | States visited: 285
+Episode 4800/20000 | Avg Reward: -197.65 | Epsilon: 0.0907 | States visited: 285
+Episode 4900/20000 | Avg Reward: -190.15 | Epsilon: 0.0862 | States visited: 285
+Episode 5000/20000 | Avg Reward: -196.24 | Epsilon: 0.0820 | States visited: 285
+Episode 5100/20000 | Avg Reward: -190.66 | Epsilon: 0.0780 | States visited: 285
+Episode 5200/20000 | Avg Reward: -180.07 | Epsilon: 0.0742 | States visited: 285
+Episode 5300/20000 | Avg Reward: -190.51 | Epsilon: 0.0706 | States visited: 285
+Episode 5400/20000 | Avg Reward: -194.61 | Epsilon: 0.0672 | States visited: 285
+Episode 5500/20000 | Avg Reward: -197.44 | Epsilon: 0.0639 | States visited: 285
+Episode 5600/20000 | Avg Reward: -191.03 | Epsilon: 0.0608 | States visited: 287
+Episode 5700/20000 | Avg Reward: -192.20 | Epsilon: 0.0578 | States visited: 287
+Episode 5800/20000 | Avg Reward: -190.66 | Epsilon: 0.0550 | States visited: 287
+Episode 5900/20000 | Avg Reward: -182.54 | Epsilon: 0.0523 | States visited: 287
+Episode 6000/20000 | Avg Reward: -184.23 | Epsilon: 0.0497 | States visited: 287
+Episode 6100/20000 | Avg Reward: -196.52 | Epsilon: 0.0473 | States visited: 287
+Episode 6200/20000 | Avg Reward: -177.80 | Epsilon: 0.0450 | States visited: 287
+Episode 6300/20000 | Avg Reward: -170.38 | Epsilon: 0.0428 | States visited: 287
+Episode 6400/20000 | Avg Reward: -195.31 | Epsilon: 0.0407 | States visited: 287
+Episode 6500/20000 | Avg Reward: -191.09 | Epsilon: 0.0387 | States visited: 287
+Episode 6600/20000 | Avg Reward: -186.54 | Epsilon: 0.0369 | States visited: 287
+Episode 6700/20000 | Avg Reward: -178.40 | Epsilon: 0.0351 | States visited: 287
+Episode 6800/20000 | Avg Reward: -184.02 | Epsilon: 0.0333 | States visited: 287
+Episode 6900/20000 | Avg Reward: -190.06 | Epsilon: 0.0317 | States visited: 287
+Episode 7000/20000 | Avg Reward: -179.07 | Epsilon: 0.0302 | States visited: 287
+Episode 7100/20000 | Avg Reward: -174.88 | Epsilon: 0.0287 | States visited: 287
+Episode 7200/20000 | Avg Reward: -175.95 | Epsilon: 0.0273 | States visited: 287
+Episode 7300/20000 | Avg Reward: -175.68 | Epsilon: 0.0260 | States visited: 287
+Episode 7400/20000 | Avg Reward: -171.12 | Epsilon: 0.0247 | States visited: 287
+Episode 7500/20000 | Avg Reward: -181.32 | Epsilon: 0.0235 | States visited: 288
+Episode 7600/20000 | Avg Reward: -167.20 | Epsilon: 0.0223 | States visited: 288
+Episode 7700/20000 | Avg Reward: -157.44 | Epsilon: 0.0213 | States visited: 288
+Episode 7800/20000 | Avg Reward: -164.45 | Epsilon: 0.0202 | States visited: 288
+Episode 7900/20000 | Avg Reward: -188.12 | Epsilon: 0.0192 | States visited: 289
+Episode 8000/20000 | Avg Reward: -184.39 | Epsilon: 0.0183 | States visited: 289
+Episode 8100/20000 | Avg Reward: -184.71 | Epsilon: 0.0174 | States visited: 289
+Episode 8200/20000 | Avg Reward: -188.30 | Epsilon: 0.0166 | States visited: 289
+Episode 8300/20000 | Avg Reward: -185.85 | Epsilon: 0.0157 | States visited: 290
+Episode 8400/20000 | Avg Reward: -185.70 | Epsilon: 0.0150 | States visited: 290
+Episode 8500/20000 | Avg Reward: -171.96 | Epsilon: 0.0142 | States visited: 290
+Episode 8600/20000 | Avg Reward: -184.67 | Epsilon: 0.0136 | States visited: 290
+Episode 8700/20000 | Avg Reward: -167.18 | Epsilon: 0.0129 | States visited: 290
+Episode 8800/20000 | Avg Reward: -189.66 | Epsilon: 0.0123 | States visited: 290
+Episode 8900/20000 | Avg Reward: -177.32 | Epsilon: 0.0117 | States visited: 290
+Episode 9000/20000 | Avg Reward: -173.81 | Epsilon: 0.0111 | States visited: 290
+Episode 9100/20000 | Avg Reward: -170.84 | Epsilon: 0.0106 | States visited: 290
+Episode 9200/20000 | Avg Reward: -174.36 | Epsilon: 0.0100 | States visited: 290
+Episode 9300/20000 | Avg Reward: -173.40 | Epsilon: 0.0100 | States visited: 290
+Episode 9400/20000 | Avg Reward: -165.25 | Epsilon: 0.0100 | States visited: 290
+Episode 9500/20000 | Avg Reward: -160.52 | Epsilon: 0.0100 | States visited: 290
+Episode 9600/20000 | Avg Reward: -168.80 | Epsilon: 0.0100 | States visited: 290
+Episode 9700/20000 | Avg Reward: -175.22 | Epsilon: 0.0100 | States visited: 290
+Episode 9800/20000 | Avg Reward: -178.06 | Epsilon: 0.0100 | States visited: 290
+Episode 9900/20000 | Avg Reward: -173.40 | Epsilon: 0.0100 | States visited: 290
+Episode 10000/20000 | Avg Reward: -165.94 | Epsilon: 0.0100 | States visited: 290
+Episode 10100/20000 | Avg Reward: -178.20 | Epsilon: 0.0100 | States visited: 290
+Episode 10200/20000 | Avg Reward: -173.48 | Epsilon: 0.0100 | States visited: 290
+Episode 10300/20000 | Avg Reward: -161.91 | Epsilon: 0.0100 | States visited: 290
+Episode 10400/20000 | Avg Reward: -157.98 | Epsilon: 0.0100 | States visited: 290
+Episode 10500/20000 | Avg Reward: -178.12 | Epsilon: 0.0100 | States visited: 290
+Episode 10600/20000 | Avg Reward: -181.57 | Epsilon: 0.0100 | States visited: 290
+Episode 10700/20000 | Avg Reward: -171.54 | Epsilon: 0.0100 | States visited: 290
+Episode 10800/20000 | Avg Reward: -185.67 | Epsilon: 0.0100 | States visited: 290
+Episode 10900/20000 | Avg Reward: -185.93 | Epsilon: 0.0100 | States visited: 290
+Episode 11000/20000 | Avg Reward: -189.41 | Epsilon: 0.0100 | States visited: 290
+Episode 11100/20000 | Avg Reward: -162.50 | Epsilon: 0.0100 | States visited: 290
+Episode 11200/20000 | Avg Reward: -183.49 | Epsilon: 0.0100 | States visited: 290
+Episode 11300/20000 | Avg Reward: -177.41 | Epsilon: 0.0100 | States visited: 290
+Episode 11400/20000 | Avg Reward: -158.01 | Epsilon: 0.0100 | States visited: 290
+Episode 11500/20000 | Avg Reward: -160.69 | Epsilon: 0.0100 | States visited: 290
+Episode 11600/20000 | Avg Reward: -157.60 | Epsilon: 0.0100 | States visited: 290
+Episode 11700/20000 | Avg Reward: -149.41 | Epsilon: 0.0100 | States visited: 290
+Episode 11800/20000 | Avg Reward: -154.99 | Epsilon: 0.0100 | States visited: 290
+Episode 11900/20000 | Avg Reward: -155.86 | Epsilon: 0.0100 | States visited: 290
+Episode 12000/20000 | Avg Reward: -186.69 | Epsilon: 0.0100 | States visited: 290
+Episode 12100/20000 | Avg Reward: -197.41 | Epsilon: 0.0100 | States visited: 290
+Episode 12200/20000 | Avg Reward: -195.69 | Epsilon: 0.0100 | States visited: 290
+Episode 12300/20000 | Avg Reward: -189.26 | Epsilon: 0.0100 | States visited: 290
+Episode 12400/20000 | Avg Reward: -174.56 | Epsilon: 0.0100 | States visited: 290
+Episode 12500/20000 | Avg Reward: -173.43 | Epsilon: 0.0100 | States visited: 290
+Episode 12600/20000 | Avg Reward: -173.06 | Epsilon: 0.0100 | States visited: 290
+Episode 12700/20000 | Avg Reward: -183.07 | Epsilon: 0.0100 | States visited: 290
+Episode 12800/20000 | Avg Reward: -167.56 | Epsilon: 0.0100 | States visited: 290
+Episode 12900/20000 | Avg Reward: -172.43 | Epsilon: 0.0100 | States visited: 290
+Episode 13000/20000 | Avg Reward: -190.94 | Epsilon: 0.0100 | States visited: 290
+Episode 13100/20000 | Avg Reward: -181.76 | Epsilon: 0.0100 | States visited: 290
+Episode 13200/20000 | Avg Reward: -161.22 | Epsilon: 0.0100 | States visited: 290
+Episode 13300/20000 | Avg Reward: -169.48 | Epsilon: 0.0100 | States visited: 290
+Episode 13400/20000 | Avg Reward: -174.96 | Epsilon: 0.0100 | States visited: 290
+Episode 13500/20000 | Avg Reward: -171.61 | Epsilon: 0.0100 | States visited: 290
+Episode 13600/20000 | Avg Reward: -176.05 | Epsilon: 0.0100 | States visited: 290
+Episode 13700/20000 | Avg Reward: -177.22 | Epsilon: 0.0100 | States visited: 290
+Episode 13800/20000 | Avg Reward: -173.32 | Epsilon: 0.0100 | States visited: 290
+Episode 13900/20000 | Avg Reward: -187.00 | Epsilon: 0.0100 | States visited: 290
+Episode 14000/20000 | Avg Reward: -184.66 | Epsilon: 0.0100 | States visited: 290
+Episode 14100/20000 | Avg Reward: -158.43 | Epsilon: 0.0100 | States visited: 290
+Episode 14200/20000 | Avg Reward: -165.83 | Epsilon: 0.0100 | States visited: 290
+Episode 14300/20000 | Avg Reward: -164.88 | Epsilon: 0.0100 | States visited: 290
+Episode 14400/20000 | Avg Reward: -176.44 | Epsilon: 0.0100 | States visited: 290
+Episode 14500/20000 | Avg Reward: -180.33 | Epsilon: 0.0100 | States visited: 290
+Episode 14600/20000 | Avg Reward: -174.16 | Epsilon: 0.0100 | States visited: 290
+Episode 14700/20000 | Avg Reward: -185.87 | Epsilon: 0.0100 | States visited: 290
+Episode 14800/20000 | Avg Reward: -160.69 | Epsilon: 0.0100 | States visited: 290
+Episode 14900/20000 | Avg Reward: -151.35 | Epsilon: 0.0100 | States visited: 290
+Episode 15000/20000 | Avg Reward: -155.43 | Epsilon: 0.0100 | States visited: 290
+Episode 15100/20000 | Avg Reward: -164.82 | Epsilon: 0.0100 | States visited: 293
+Episode 15200/20000 | Avg Reward: -168.06 | Epsilon: 0.0100 | States visited: 293
+Episode 15300/20000 | Avg Reward: -158.15 | Epsilon: 0.0100 | States visited: 293
+Episode 15400/20000 | Avg Reward: -157.38 | Epsilon: 0.0100 | States visited: 293
+Episode 15500/20000 | Avg Reward: -176.82 | Epsilon: 0.0100 | States visited: 293
+Episode 15600/20000 | Avg Reward: -195.52 | Epsilon: 0.0100 | States visited: 293
+Episode 15700/20000 | Avg Reward: -193.31 | Epsilon: 0.0100 | States visited: 293
+Episode 15800/20000 | Avg Reward: -191.18 | Epsilon: 0.0100 | States visited: 293
+Episode 15900/20000 | Avg Reward: -187.15 | Epsilon: 0.0100 | States visited: 293
+Episode 16000/20000 | Avg Reward: -175.82 | Epsilon: 0.0100 | States visited: 293
+Episode 16100/20000 | Avg Reward: -165.77 | Epsilon: 0.0100 | States visited: 293
+Episode 16200/20000 | Avg Reward: -192.34 | Epsilon: 0.0100 | States visited: 293
+Episode 16300/20000 | Avg Reward: -178.55 | Epsilon: 0.0100 | States visited: 293
+Episode 16400/20000 | Avg Reward: -192.12 | Epsilon: 0.0100 | States visited: 293
+Episode 16500/20000 | Avg Reward: -170.83 | Epsilon: 0.0100 | States visited: 293
+Episode 16600/20000 | Avg Reward: -163.62 | Epsilon: 0.0100 | States visited: 293
+Episode 16700/20000 | Avg Reward: -182.84 | Epsilon: 0.0100 | States visited: 293
+Episode 16800/20000 | Avg Reward: -193.40 | Epsilon: 0.0100 | States visited: 293
+Episode 16900/20000 | Avg Reward: -197.96 | Epsilon: 0.0100 | States visited: 293
+Episode 17000/20000 | Avg Reward: -182.46 | Epsilon: 0.0100 | States visited: 293
+Episode 17100/20000 | Avg Reward: -180.95 | Epsilon: 0.0100 | States visited: 293
+Episode 17200/20000 | Avg Reward: -172.05 | Epsilon: 0.0100 | States visited: 293
+Episode 17300/20000 | Avg Reward: -155.54 | Epsilon: 0.0100 | States visited: 293
+Episode 17400/20000 | Avg Reward: -149.10 | Epsilon: 0.0100 | States visited: 293
+Episode 17500/20000 | Avg Reward: -147.68 | Epsilon: 0.0100 | States visited: 293
+Episode 17600/20000 | Avg Reward: -148.87 | Epsilon: 0.0100 | States visited: 293
+Episode 17700/20000 | Avg Reward: -147.40 | Epsilon: 0.0100 | States visited: 293
+Episode 17800/20000 | Avg Reward: -158.08 | Epsilon: 0.0100 | States visited: 293
+Episode 17900/20000 | Avg Reward: -171.40 | Epsilon: 0.0100 | States visited: 293
+Episode 18000/20000 | Avg Reward: -163.68 | Epsilon: 0.0100 | States visited: 293
+Episode 18100/20000 | Avg Reward: -171.86 | Epsilon: 0.0100 | States visited: 293
+Episode 18200/20000 | Avg Reward: -191.47 | Epsilon: 0.0100 | States visited: 293
+Episode 18300/20000 | Avg Reward: -194.18 | Epsilon: 0.0100 | States visited: 293
+Episode 18400/20000 | Avg Reward: -195.36 | Epsilon: 0.0100 | States visited: 293
+Episode 18500/20000 | Avg Reward: -187.74 | Epsilon: 0.0100 | States visited: 293
+Episode 18600/20000 | Avg Reward: -179.99 | Epsilon: 0.0100 | States visited: 293
+Episode 18700/20000 | Avg Reward: -173.42 | Epsilon: 0.0100 | States visited: 293
+Episode 18800/20000 | Avg Reward: -155.15 | Epsilon: 0.0100 | States visited: 293
+Episode 18900/20000 | Avg Reward: -143.99 | Epsilon: 0.0100 | States visited: 293
+Episode 19000/20000 | Avg Reward: -147.62 | Epsilon: 0.0100 | States visited: 293
+Episode 19100/20000 | Avg Reward: -140.21 | Epsilon: 0.0100 | States visited: 293
+Episode 19200/20000 | Avg Reward: -146.72 | Epsilon: 0.0100 | States visited: 293
+Episode 19300/20000 | Avg Reward: -148.98 | Epsilon: 0.0100 | States visited: 293
+Episode 19400/20000 | Avg Reward: -166.95 | Epsilon: 0.0100 | States visited: 293
+Episode 19500/20000 | Avg Reward: -173.47 | Epsilon: 0.0100 | States visited: 293
+Episode 19600/20000 | Avg Reward: -180.46 | Epsilon: 0.0100 | States visited: 293
+Episode 19700/20000 | Avg Reward: -181.18 | Epsilon: 0.0100 | States visited: 293
+Episode 19800/20000 | Avg Reward: -186.47 | Epsilon: 0.0100 | States visited: 293
+Episode 19900/20000 | Avg Reward: -185.80 | Epsilon: 0.0100 | States visited: 293
+Episode 20000/20000 | Avg Reward: -186.99 | Epsilon: 0.0100 | States visited: 293
+
+Resultados de la evaluación 
+
+Q-Learning agent for MountainCar-v0
+  Episodes trained : 20000
+  States visited   : 293 / 400
+  Epsilon          : 0.0100
+  LR / Gamma       : 0.3 / 0.95
+
+Evaluating (10 episodes) ...
+  Mean reward: -200.00 +/- 0.00
+  Reached the flag: 0/10 episodes
+
+- Cambio Hiperparametros 4
+
+
+        n_bins: int = 20,
+        lr: float = 0.1,
+        gamma: float = 0.95,
+        epsilon_start: float = 1.0,
+        epsilon_end: float = 0.01,
+        epsilon_decay: float = 0.99995,
+
+Resultados Entrenamiento
+
+Episode 100/20000 | Avg Reward: -200.00 | Epsilon: 0.9950 | States visited: 60
+Episode 200/20000 | Avg Reward: -200.00 | Epsilon: 0.9900 | States visited: 64
+Episode 300/20000 | Avg Reward: -200.00 | Epsilon: 0.9851 | States visited: 87
+Episode 400/20000 | Avg Reward: -200.00 | Epsilon: 0.9802 | States visited: 87
+Episode 500/20000 | Avg Reward: -200.00 | Epsilon: 0.9753 | States visited: 87
+Episode 600/20000 | Avg Reward: -200.00 | Epsilon: 0.9704 | States visited: 90
+Episode 700/20000 | Avg Reward: -200.00 | Epsilon: 0.9656 | States visited: 90
+Episode 800/20000 | Avg Reward: -200.00 | Epsilon: 0.9608 | States visited: 90
+Episode 900/20000 | Avg Reward: -200.00 | Epsilon: 0.9560 | States visited: 90
+Episode 1000/20000 | Avg Reward: -200.00 | Epsilon: 0.9512 | States visited: 90
+Episode 1100/20000 | Avg Reward: -200.00 | Epsilon: 0.9465 | States visited: 90
+Episode 1200/20000 | Avg Reward: -200.00 | Epsilon: 0.9418 | States visited: 90
+Episode 1300/20000 | Avg Reward: -200.00 | Epsilon: 0.9371 | States visited: 90
+Episode 1400/20000 | Avg Reward: -200.00 | Epsilon: 0.9324 | States visited: 91
+Episode 1500/20000 | Avg Reward: -200.00 | Epsilon: 0.9277 | States visited: 91
+Episode 1600/20000 | Avg Reward: -200.00 | Epsilon: 0.9231 | States visited: 91
+Episode 1700/20000 | Avg Reward: -200.00 | Epsilon: 0.9185 | States visited: 92
+Episode 1800/20000 | Avg Reward: -200.00 | Epsilon: 0.9139 | States visited: 92
+Episode 1900/20000 | Avg Reward: -200.00 | Epsilon: 0.9094 | States visited: 92
+Episode 2000/20000 | Avg Reward: -200.00 | Epsilon: 0.9048 | States visited: 92
+Episode 2100/20000 | Avg Reward: -200.00 | Epsilon: 0.9003 | States visited: 95
+Episode 2200/20000 | Avg Reward: -200.00 | Epsilon: 0.8958 | States visited: 97
+Episode 2300/20000 | Avg Reward: -200.00 | Epsilon: 0.8914 | States visited: 98
+Episode 2400/20000 | Avg Reward: -200.00 | Epsilon: 0.8869 | States visited: 98
+Episode 2500/20000 | Avg Reward: -200.00 | Epsilon: 0.8825 | States visited: 104
+Episode 2600/20000 | Avg Reward: -200.00 | Epsilon: 0.8781 | States visited: 106
+Episode 2700/20000 | Avg Reward: -200.00 | Epsilon: 0.8737 | States visited: 111
+Episode 2800/20000 | Avg Reward: -200.00 | Epsilon: 0.8694 | States visited: 113
+Episode 2900/20000 | Avg Reward: -200.00 | Epsilon: 0.8650 | States visited: 113
+Episode 3000/20000 | Avg Reward: -200.00 | Epsilon: 0.8607 | States visited: 115
+Episode 3100/20000 | Avg Reward: -200.00 | Epsilon: 0.8564 | States visited: 115
+Episode 3200/20000 | Avg Reward: -200.00 | Epsilon: 0.8521 | States visited: 115
+Episode 3300/20000 | Avg Reward: -200.00 | Epsilon: 0.8479 | States visited: 115
+Episode 3400/20000 | Avg Reward: -200.00 | Epsilon: 0.8437 | States visited: 123
+Episode 3500/20000 | Avg Reward: -200.00 | Epsilon: 0.8395 | States visited: 127
+Episode 3600/20000 | Avg Reward: -200.00 | Epsilon: 0.8353 | States visited: 130
+Episode 3700/20000 | Avg Reward: -200.00 | Epsilon: 0.8311 | States visited: 131
+Episode 3800/20000 | Avg Reward: -200.00 | Epsilon: 0.8270 | States visited: 131
+Episode 3900/20000 | Avg Reward: -200.00 | Epsilon: 0.8228 | States visited: 131
+Episode 4000/20000 | Avg Reward: -200.00 | Epsilon: 0.8187 | States visited: 131
+Episode 4100/20000 | Avg Reward: -200.00 | Epsilon: 0.8146 | States visited: 131
+Episode 4200/20000 | Avg Reward: -200.00 | Epsilon: 0.8106 | States visited: 137
+Episode 4300/20000 | Avg Reward: -200.00 | Epsilon: 0.8065 | States visited: 137
+Episode 4400/20000 | Avg Reward: -200.00 | Epsilon: 0.8025 | States visited: 137
+Episode 4500/20000 | Avg Reward: -200.00 | Epsilon: 0.7985 | States visited: 145
+Episode 4600/20000 | Avg Reward: -200.00 | Epsilon: 0.7945 | States visited: 146
+Episode 4700/20000 | Avg Reward: -200.00 | Epsilon: 0.7906 | States visited: 146
+Episode 4800/20000 | Avg Reward: -200.00 | Epsilon: 0.7866 | States visited: 146
+Episode 4900/20000 | Avg Reward: -200.00 | Epsilon: 0.7827 | States visited: 148
+Episode 5000/20000 | Avg Reward: -200.00 | Epsilon: 0.7788 | States visited: 148
+Episode 5100/20000 | Avg Reward: -200.00 | Epsilon: 0.7749 | States visited: 151
+Episode 5200/20000 | Avg Reward: -200.00 | Epsilon: 0.7710 | States visited: 153
+Episode 5300/20000 | Avg Reward: -200.00 | Epsilon: 0.7672 | States visited: 154
+Episode 5400/20000 | Avg Reward: -200.00 | Epsilon: 0.7634 | States visited: 154
+Episode 5500/20000 | Avg Reward: -200.00 | Epsilon: 0.7596 | States visited: 161
+Episode 5600/20000 | Avg Reward: -200.00 | Epsilon: 0.7558 | States visited: 168
+Episode 5700/20000 | Avg Reward: -200.00 | Epsilon: 0.7520 | States visited: 168
+Episode 5800/20000 | Avg Reward: -200.00 | Epsilon: 0.7483 | States visited: 170
+Episode 5900/20000 | Avg Reward: -200.00 | Epsilon: 0.7445 | States visited: 170
+Episode 6000/20000 | Avg Reward: -200.00 | Epsilon: 0.7408 | States visited: 177
+Episode 6100/20000 | Avg Reward: -200.00 | Epsilon: 0.7371 | States visited: 177
+Episode 6200/20000 | Avg Reward: -200.00 | Epsilon: 0.7334 | States visited: 177
+Episode 6300/20000 | Avg Reward: -200.00 | Epsilon: 0.7298 | States visited: 177
+Episode 6400/20000 | Avg Reward: -200.00 | Epsilon: 0.7261 | States visited: 177
+Episode 6500/20000 | Avg Reward: -200.00 | Epsilon: 0.7225 | States visited: 177
+Episode 6600/20000 | Avg Reward: -200.00 | Epsilon: 0.7189 | States visited: 200
+Episode 6700/20000 | Avg Reward: -200.00 | Epsilon: 0.7153 | States visited: 200
+Episode 6800/20000 | Avg Reward: -200.00 | Epsilon: 0.7118 | States visited: 206
+Episode 6900/20000 | Avg Reward: -200.00 | Epsilon: 0.7082 | States visited: 206
+Episode 7000/20000 | Avg Reward: -200.00 | Epsilon: 0.7047 | States visited: 206
+Episode 7100/20000 | Avg Reward: -200.00 | Epsilon: 0.7012 | States visited: 206
+Episode 7200/20000 | Avg Reward: -200.00 | Epsilon: 0.6977 | States visited: 206
+Episode 7300/20000 | Avg Reward: -200.00 | Epsilon: 0.6942 | States visited: 207
+Episode 7400/20000 | Avg Reward: -200.00 | Epsilon: 0.6907 | States visited: 207
+Episode 7500/20000 | Avg Reward: -200.00 | Epsilon: 0.6873 | States visited: 208
+Episode 7600/20000 | Avg Reward: -200.00 | Epsilon: 0.6839 | States visited: 213
+Episode 7700/20000 | Avg Reward: -200.00 | Epsilon: 0.6804 | States visited: 213
+Episode 7800/20000 | Avg Reward: -200.00 | Epsilon: 0.6771 | States visited: 213
+Episode 7900/20000 | Avg Reward: -200.00 | Epsilon: 0.6737 | States visited: 213
+Episode 8000/20000 | Avg Reward: -200.00 | Epsilon: 0.6703 | States visited: 216
+Episode 8100/20000 | Avg Reward: -200.00 | Epsilon: 0.6670 | States visited: 216
+Episode 8200/20000 | Avg Reward: -200.00 | Epsilon: 0.6636 | States visited: 216
+Episode 8300/20000 | Avg Reward: -200.00 | Epsilon: 0.6603 | States visited: 216
+Episode 8400/20000 | Avg Reward: -200.00 | Epsilon: 0.6570 | States visited: 218
+Episode 8500/20000 | Avg Reward: -200.00 | Epsilon: 0.6538 | States visited: 221
+Episode 8600/20000 | Avg Reward: -200.00 | Epsilon: 0.6505 | States visited: 222
+Episode 8700/20000 | Avg Reward: -200.00 | Epsilon: 0.6473 | States visited: 223
+Episode 8800/20000 | Avg Reward: -200.00 | Epsilon: 0.6440 | States visited: 224
+Episode 8900/20000 | Avg Reward: -200.00 | Epsilon: 0.6408 | States visited: 224
+Episode 9000/20000 | Avg Reward: -200.00 | Epsilon: 0.6376 | States visited: 224
+Episode 9100/20000 | Avg Reward: -200.00 | Epsilon: 0.6344 | States visited: 224
+Episode 9200/20000 | Avg Reward: -200.00 | Epsilon: 0.6313 | States visited: 224
+Episode 9300/20000 | Avg Reward: -200.00 | Epsilon: 0.6281 | States visited: 224
+Episode 9400/20000 | Avg Reward: -200.00 | Epsilon: 0.6250 | States visited: 224
+Episode 9500/20000 | Avg Reward: -200.00 | Epsilon: 0.6219 | States visited: 224
+Episode 9600/20000 | Avg Reward: -200.00 | Epsilon: 0.6188 | States visited: 224
+Episode 9700/20000 | Avg Reward: -200.00 | Epsilon: 0.6157 | States visited: 224
+Episode 9800/20000 | Avg Reward: -200.00 | Epsilon: 0.6126 | States visited: 224
+Episode 9900/20000 | Avg Reward: -200.00 | Epsilon: 0.6096 | States visited: 225
+Episode 10000/20000 | Avg Reward: -200.00 | Epsilon: 0.6065 | States visited: 225
+Episode 10100/20000 | Avg Reward: -200.00 | Epsilon: 0.6035 | States visited: 226
+Episode 10200/20000 | Avg Reward: -200.00 | Epsilon: 0.6005 | States visited: 228
+Episode 10300/20000 | Avg Reward: -200.00 | Epsilon: 0.5975 | States visited: 231
+Episode 10400/20000 | Avg Reward: -200.00 | Epsilon: 0.5945 | States visited: 232
+Episode 10500/20000 | Avg Reward: -200.00 | Epsilon: 0.5915 | States visited: 233
+Episode 10600/20000 | Avg Reward: -200.00 | Epsilon: 0.5886 | States visited: 233
+Episode 10700/20000 | Avg Reward: -200.00 | Epsilon: 0.5857 | States visited: 233
+Episode 10800/20000 | Avg Reward: -200.00 | Epsilon: 0.5827 | States visited: 236
+Episode 10900/20000 | Avg Reward: -200.00 | Epsilon: 0.5798 | States visited: 236
+Episode 11000/20000 | Avg Reward: -200.00 | Epsilon: 0.5769 | States visited: 237
+Episode 11100/20000 | Avg Reward: -200.00 | Epsilon: 0.5741 | States visited: 238
+Episode 11200/20000 | Avg Reward: -200.00 | Epsilon: 0.5712 | States visited: 241
+Episode 11300/20000 | Avg Reward: -200.00 | Epsilon: 0.5684 | States visited: 241
+Episode 11400/20000 | Avg Reward: -200.00 | Epsilon: 0.5655 | States visited: 241
+Episode 11500/20000 | Avg Reward: -200.00 | Epsilon: 0.5627 | States visited: 242
+Episode 11600/20000 | Avg Reward: -200.00 | Epsilon: 0.5599 | States visited: 242
+Episode 11700/20000 | Avg Reward: -200.00 | Epsilon: 0.5571 | States visited: 243
+Episode 11800/20000 | Avg Reward: -200.00 | Epsilon: 0.5543 | States visited: 246
+Episode 11900/20000 | Avg Reward: -200.00 | Epsilon: 0.5516 | States visited: 246
+Episode 12000/20000 | Avg Reward: -199.62 | Epsilon: 0.5488 | States visited: 251
+Episode 12100/20000 | Avg Reward: -199.68 | Epsilon: 0.5461 | States visited: 257
+Episode 12200/20000 | Avg Reward: -200.00 | Epsilon: 0.5433 | States visited: 257
+Episode 12300/20000 | Avg Reward: -200.00 | Epsilon: 0.5406 | States visited: 260
+Episode 12400/20000 | Avg Reward: -200.00 | Epsilon: 0.5379 | States visited: 263
+Episode 12500/20000 | Avg Reward: -199.74 | Epsilon: 0.5353 | States visited: 263
+Episode 12600/20000 | Avg Reward: -200.00 | Epsilon: 0.5326 | States visited: 265
+Episode 12700/20000 | Avg Reward: -200.00 | Epsilon: 0.5299 | States visited: 265
+Episode 12800/20000 | Avg Reward: -199.38 | Epsilon: 0.5273 | States visited: 265
+Episode 12900/20000 | Avg Reward: -199.97 | Epsilon: 0.5247 | States visited: 265
+Episode 13000/20000 | Avg Reward: -199.71 | Epsilon: 0.5220 | States visited: 265
+Episode 13100/20000 | Avg Reward: -199.89 | Epsilon: 0.5194 | States visited: 265
+Episode 13200/20000 | Avg Reward: -200.00 | Epsilon: 0.5168 | States visited: 266
+Episode 13300/20000 | Avg Reward: -199.98 | Epsilon: 0.5143 | States visited: 266
+Episode 13400/20000 | Avg Reward: -199.94 | Epsilon: 0.5117 | States visited: 266
+Episode 13500/20000 | Avg Reward: -200.00 | Epsilon: 0.5091 | States visited: 266
+Episode 13600/20000 | Avg Reward: -199.65 | Epsilon: 0.5066 | States visited: 268
+Episode 13700/20000 | Avg Reward: -199.87 | Epsilon: 0.5041 | States visited: 268
+Episode 13800/20000 | Avg Reward: -200.00 | Epsilon: 0.5016 | States visited: 269
+Episode 13900/20000 | Avg Reward: -198.98 | Epsilon: 0.4991 | States visited: 269
+Episode 14000/20000 | Avg Reward: -200.00 | Epsilon: 0.4966 | States visited: 269
+Episode 14100/20000 | Avg Reward: -199.83 | Epsilon: 0.4941 | States visited: 269
+Episode 14200/20000 | Avg Reward: -199.35 | Epsilon: 0.4916 | States visited: 269
+Episode 14300/20000 | Avg Reward: -199.91 | Epsilon: 0.4892 | States visited: 270
+Episode 14400/20000 | Avg Reward: -199.96 | Epsilon: 0.4867 | States visited: 270
+Episode 14500/20000 | Avg Reward: -198.56 | Epsilon: 0.4843 | States visited: 270
+Episode 14600/20000 | Avg Reward: -199.72 | Epsilon: 0.4819 | States visited: 270
+Episode 14700/20000 | Avg Reward: -199.79 | Epsilon: 0.4795 | States visited: 270
+Episode 14800/20000 | Avg Reward: -199.36 | Epsilon: 0.4771 | States visited: 271
+Episode 14900/20000 | Avg Reward: -200.00 | Epsilon: 0.4747 | States visited: 271
+Episode 15000/20000 | Avg Reward: -199.71 | Epsilon: 0.4724 | States visited: 271
+Episode 15100/20000 | Avg Reward: -199.99 | Epsilon: 0.4700 | States visited: 271
+Episode 15200/20000 | Avg Reward: -199.93 | Epsilon: 0.4677 | States visited: 271
+Episode 15300/20000 | Avg Reward: -199.15 | Epsilon: 0.4653 | States visited: 273
+Episode 15400/20000 | Avg Reward: -198.49 | Epsilon: 0.4630 | States visited: 273
+Episode 15500/20000 | Avg Reward: -199.67 | Epsilon: 0.4607 | States visited: 273
+Episode 15600/20000 | Avg Reward: -198.86 | Epsilon: 0.4584 | States visited: 273
+Episode 15700/20000 | Avg Reward: -198.40 | Epsilon: 0.4561 | States visited: 273
+Episode 15800/20000 | Avg Reward: -199.59 | Epsilon: 0.4538 | States visited: 276
+Episode 15900/20000 | Avg Reward: -199.62 | Epsilon: 0.4516 | States visited: 277
+Episode 16000/20000 | Avg Reward: -199.66 | Epsilon: 0.4493 | States visited: 277
+Episode 16100/20000 | Avg Reward: -199.57 | Epsilon: 0.4471 | States visited: 277
+Episode 16200/20000 | Avg Reward: -199.24 | Epsilon: 0.4448 | States visited: 277
+Episode 16300/20000 | Avg Reward: -200.00 | Epsilon: 0.4426 | States visited: 277
+Episode 16400/20000 | Avg Reward: -199.80 | Epsilon: 0.4404 | States visited: 277
+Episode 16500/20000 | Avg Reward: -198.95 | Epsilon: 0.4382 | States visited: 277
+Episode 16600/20000 | Avg Reward: -199.58 | Epsilon: 0.4360 | States visited: 277
+Episode 16700/20000 | Avg Reward: -199.69 | Epsilon: 0.4339 | States visited: 277
+Episode 16800/20000 | Avg Reward: -198.84 | Epsilon: 0.4317 | States visited: 277
+Episode 16900/20000 | Avg Reward: -198.05 | Epsilon: 0.4295 | States visited: 278
+Episode 17000/20000 | Avg Reward: -199.88 | Epsilon: 0.4274 | States visited: 278
+Episode 17100/20000 | Avg Reward: -198.13 | Epsilon: 0.4253 | States visited: 279
+Episode 17200/20000 | Avg Reward: -199.34 | Epsilon: 0.4232 | States visited: 279
+Episode 17300/20000 | Avg Reward: -199.60 | Epsilon: 0.4210 | States visited: 280
+Episode 17400/20000 | Avg Reward: -199.62 | Epsilon: 0.4189 | States visited: 280
+Episode 17500/20000 | Avg Reward: -197.52 | Epsilon: 0.4169 | States visited: 280
+Episode 17600/20000 | Avg Reward: -196.95 | Epsilon: 0.4148 | States visited: 280
+Episode 17700/20000 | Avg Reward: -199.27 | Epsilon: 0.4127 | States visited: 280
+Episode 17800/20000 | Avg Reward: -197.04 | Epsilon: 0.4106 | States visited: 280
+Episode 17900/20000 | Avg Reward: -196.33 | Epsilon: 0.4086 | States visited: 280
+Episode 18000/20000 | Avg Reward: -198.37 | Epsilon: 0.4066 | States visited: 281
+Episode 18100/20000 | Avg Reward: -197.11 | Epsilon: 0.4045 | States visited: 282
+Episode 18200/20000 | Avg Reward: -193.33 | Epsilon: 0.4025 | States visited: 282
+Episode 18300/20000 | Avg Reward: -193.30 | Epsilon: 0.4005 | States visited: 282
+Episode 18400/20000 | Avg Reward: -195.70 | Epsilon: 0.3985 | States visited: 282
+Episode 18500/20000 | Avg Reward: -195.06 | Epsilon: 0.3965 | States visited: 282
+Episode 18600/20000 | Avg Reward: -197.42 | Epsilon: 0.3945 | States visited: 282
+Episode 18700/20000 | Avg Reward: -193.14 | Epsilon: 0.3926 | States visited: 282
+Episode 18800/20000 | Avg Reward: -197.68 | Epsilon: 0.3906 | States visited: 282
+Episode 18900/20000 | Avg Reward: -199.26 | Epsilon: 0.3887 | States visited: 283
+Episode 19000/20000 | Avg Reward: -196.69 | Epsilon: 0.3867 | States visited: 283
+Episode 19100/20000 | Avg Reward: -194.37 | Epsilon: 0.3848 | States visited: 284
+Episode 19200/20000 | Avg Reward: -193.63 | Epsilon: 0.3829 | States visited: 284
+Episode 19300/20000 | Avg Reward: -195.22 | Epsilon: 0.3810 | States visited: 285
+Episode 19400/20000 | Avg Reward: -195.95 | Epsilon: 0.3791 | States visited: 285
+Episode 19500/20000 | Avg Reward: -198.82 | Epsilon: 0.3772 | States visited: 285
+Episode 19600/20000 | Avg Reward: -194.58 | Epsilon: 0.3753 | States visited: 286
+Episode 19700/20000 | Avg Reward: -197.84 | Epsilon: 0.3734 | States visited: 286
+Episode 19800/20000 | Avg Reward: -198.46 | Epsilon: 0.3716 | States visited: 286
+Episode 19900/20000 | Avg Reward: -198.82 | Epsilon: 0.3697 | States visited: 286
+Episode 20000/20000 | Avg Reward: -192.11 | Epsilon: 0.3679 | States visited: 286
+
+Resultados de la evaluación 
+
+Q-Learning agent for MountainCar-v0
+  Episodes trained : 20000
+  States visited   : 286 / 400
+  Epsilon          : 0.3679
+  LR / Gamma       : 0.1 / 0.95
+
+Evaluating (10 episodes) ...
+  Mean reward: -177.80 +/- 30.40
+  Reached the flag: 6/10 episodes
+
+- Cambio Hiperparametros 5
+
+
+        n_bins: int = 20,
+        lr: float = 0.1,
+        gamma: float = 0.99,
+        epsilon_start: float = 1.0,
+        epsilon_end: float = 0.01,
+        epsilon_decay: float = 0.99995,
+
+Resultados Entrenamiento
+
+Episode 100/20000 | Avg Reward: -200.00 | Epsilon: 0.9950 | States visited: 84
+Episode 200/20000 | Avg Reward: -200.00 | Epsilon: 0.9900 | States visited: 84
+Episode 300/20000 | Avg Reward: -200.00 | Epsilon: 0.9851 | States visited: 84
+Episode 400/20000 | Avg Reward: -200.00 | Epsilon: 0.9802 | States visited: 84
+Episode 500/20000 | Avg Reward: -200.00 | Epsilon: 0.9753 | States visited: 84
+Episode 600/20000 | Avg Reward: -200.00 | Epsilon: 0.9704 | States visited: 84
+Episode 700/20000 | Avg Reward: -200.00 | Epsilon: 0.9656 | States visited: 84
+Episode 800/20000 | Avg Reward: -200.00 | Epsilon: 0.9608 | States visited: 86
+Episode 900/20000 | Avg Reward: -200.00 | Epsilon: 0.9560 | States visited: 86
+Episode 1000/20000 | Avg Reward: -200.00 | Epsilon: 0.9512 | States visited: 86
+Episode 1100/20000 | Avg Reward: -200.00 | Epsilon: 0.9465 | States visited: 90
+Episode 1200/20000 | Avg Reward: -200.00 | Epsilon: 0.9418 | States visited: 91
+Episode 1300/20000 | Avg Reward: -200.00 | Epsilon: 0.9371 | States visited: 105
+Episode 1400/20000 | Avg Reward: -200.00 | Epsilon: 0.9324 | States visited: 105
+Episode 1500/20000 | Avg Reward: -200.00 | Epsilon: 0.9277 | States visited: 107
+Episode 1600/20000 | Avg Reward: -200.00 | Epsilon: 0.9231 | States visited: 107
+Episode 1700/20000 | Avg Reward: -200.00 | Epsilon: 0.9185 | States visited: 107
+Episode 1800/20000 | Avg Reward: -200.00 | Epsilon: 0.9139 | States visited: 108
+Episode 1900/20000 | Avg Reward: -200.00 | Epsilon: 0.9094 | States visited: 112
+Episode 2000/20000 | Avg Reward: -200.00 | Epsilon: 0.9048 | States visited: 112
+Episode 2100/20000 | Avg Reward: -200.00 | Epsilon: 0.9003 | States visited: 112
+Episode 2200/20000 | Avg Reward: -200.00 | Epsilon: 0.8958 | States visited: 119
+Episode 2300/20000 | Avg Reward: -200.00 | Epsilon: 0.8914 | States visited: 119
+Episode 2400/20000 | Avg Reward: -200.00 | Epsilon: 0.8869 | States visited: 119
+Episode 2500/20000 | Avg Reward: -200.00 | Epsilon: 0.8825 | States visited: 119
+Episode 2600/20000 | Avg Reward: -200.00 | Epsilon: 0.8781 | States visited: 119
+Episode 2700/20000 | Avg Reward: -200.00 | Epsilon: 0.8737 | States visited: 119
+Episode 2800/20000 | Avg Reward: -200.00 | Epsilon: 0.8694 | States visited: 119
+Episode 2900/20000 | Avg Reward: -200.00 | Epsilon: 0.8650 | States visited: 120
+Episode 3000/20000 | Avg Reward: -200.00 | Epsilon: 0.8607 | States visited: 120
+Episode 3100/20000 | Avg Reward: -200.00 | Epsilon: 0.8564 | States visited: 120
+Episode 3200/20000 | Avg Reward: -200.00 | Epsilon: 0.8521 | States visited: 125
+Episode 3300/20000 | Avg Reward: -200.00 | Epsilon: 0.8479 | States visited: 126
+Episode 3400/20000 | Avg Reward: -200.00 | Epsilon: 0.8437 | States visited: 126
+Episode 3500/20000 | Avg Reward: -200.00 | Epsilon: 0.8395 | States visited: 134
+Episode 3600/20000 | Avg Reward: -200.00 | Epsilon: 0.8353 | States visited: 134
+Episode 3700/20000 | Avg Reward: -200.00 | Epsilon: 0.8311 | States visited: 134
+Episode 3800/20000 | Avg Reward: -200.00 | Epsilon: 0.8270 | States visited: 137
+Episode 3900/20000 | Avg Reward: -200.00 | Epsilon: 0.8228 | States visited: 137
+Episode 4000/20000 | Avg Reward: -200.00 | Epsilon: 0.8187 | States visited: 141
+Episode 4100/20000 | Avg Reward: -200.00 | Epsilon: 0.8146 | States visited: 142
+Episode 4200/20000 | Avg Reward: -200.00 | Epsilon: 0.8106 | States visited: 142
+Episode 4300/20000 | Avg Reward: -200.00 | Epsilon: 0.8065 | States visited: 142
+Episode 4400/20000 | Avg Reward: -200.00 | Epsilon: 0.8025 | States visited: 144
+Episode 4500/20000 | Avg Reward: -200.00 | Epsilon: 0.7985 | States visited: 144
+Episode 4600/20000 | Avg Reward: -200.00 | Epsilon: 0.7945 | States visited: 144
+Episode 4700/20000 | Avg Reward: -200.00 | Epsilon: 0.7906 | States visited: 144
+Episode 4800/20000 | Avg Reward: -200.00 | Epsilon: 0.7866 | States visited: 148
+Episode 4900/20000 | Avg Reward: -200.00 | Epsilon: 0.7827 | States visited: 150
+Episode 5000/20000 | Avg Reward: -200.00 | Epsilon: 0.7788 | States visited: 150
+Episode 5100/20000 | Avg Reward: -200.00 | Epsilon: 0.7749 | States visited: 150
+Episode 5200/20000 | Avg Reward: -200.00 | Epsilon: 0.7710 | States visited: 164
+Episode 5300/20000 | Avg Reward: -200.00 | Epsilon: 0.7672 | States visited: 165
+Episode 5400/20000 | Avg Reward: -200.00 | Epsilon: 0.7634 | States visited: 165
+Episode 5500/20000 | Avg Reward: -200.00 | Epsilon: 0.7596 | States visited: 165
+Episode 5600/20000 | Avg Reward: -200.00 | Epsilon: 0.7558 | States visited: 165
+Episode 5700/20000 | Avg Reward: -200.00 | Epsilon: 0.7520 | States visited: 166
+Episode 5800/20000 | Avg Reward: -200.00 | Epsilon: 0.7483 | States visited: 166
+Episode 5900/20000 | Avg Reward: -200.00 | Epsilon: 0.7445 | States visited: 169
+Episode 6000/20000 | Avg Reward: -200.00 | Epsilon: 0.7408 | States visited: 171
+Episode 6100/20000 | Avg Reward: -200.00 | Epsilon: 0.7371 | States visited: 172
+Episode 6200/20000 | Avg Reward: -200.00 | Epsilon: 0.7334 | States visited: 172
+Episode 6300/20000 | Avg Reward: -200.00 | Epsilon: 0.7298 | States visited: 173
+Episode 6400/20000 | Avg Reward: -200.00 | Epsilon: 0.7261 | States visited: 175
+Episode 6500/20000 | Avg Reward: -200.00 | Epsilon: 0.7225 | States visited: 176
+Episode 6600/20000 | Avg Reward: -200.00 | Epsilon: 0.7189 | States visited: 176
+Episode 6700/20000 | Avg Reward: -200.00 | Epsilon: 0.7153 | States visited: 176
+Episode 6800/20000 | Avg Reward: -200.00 | Epsilon: 0.7118 | States visited: 195
+Episode 6900/20000 | Avg Reward: -200.00 | Epsilon: 0.7082 | States visited: 206
+Episode 7000/20000 | Avg Reward: -200.00 | Epsilon: 0.7047 | States visited: 206
+Episode 7100/20000 | Avg Reward: -200.00 | Epsilon: 0.7012 | States visited: 206
+Episode 7200/20000 | Avg Reward: -200.00 | Epsilon: 0.6977 | States visited: 206
+Episode 7300/20000 | Avg Reward: -200.00 | Epsilon: 0.6942 | States visited: 207
+Episode 7400/20000 | Avg Reward: -200.00 | Epsilon: 0.6907 | States visited: 207
+Episode 7500/20000 | Avg Reward: -200.00 | Epsilon: 0.6873 | States visited: 207
+Episode 7600/20000 | Avg Reward: -200.00 | Epsilon: 0.6839 | States visited: 208
+Episode 7700/20000 | Avg Reward: -200.00 | Epsilon: 0.6804 | States visited: 208
+Episode 7800/20000 | Avg Reward: -200.00 | Epsilon: 0.6771 | States visited: 208
+Episode 7900/20000 | Avg Reward: -200.00 | Epsilon: 0.6737 | States visited: 209
+Episode 8000/20000 | Avg Reward: -200.00 | Epsilon: 0.6703 | States visited: 221
+Episode 8100/20000 | Avg Reward: -200.00 | Epsilon: 0.6670 | States visited: 223
+Episode 8200/20000 | Avg Reward: -200.00 | Epsilon: 0.6636 | States visited: 226
+Episode 8300/20000 | Avg Reward: -200.00 | Epsilon: 0.6603 | States visited: 226
+Episode 8400/20000 | Avg Reward: -200.00 | Epsilon: 0.6570 | States visited: 226
+Episode 8500/20000 | Avg Reward: -200.00 | Epsilon: 0.6538 | States visited: 226
+Episode 8600/20000 | Avg Reward: -200.00 | Epsilon: 0.6505 | States visited: 226
+Episode 8700/20000 | Avg Reward: -200.00 | Epsilon: 0.6473 | States visited: 226
+Episode 8800/20000 | Avg Reward: -200.00 | Epsilon: 0.6440 | States visited: 226
+Episode 8900/20000 | Avg Reward: -200.00 | Epsilon: 0.6408 | States visited: 226
+Episode 9000/20000 | Avg Reward: -200.00 | Epsilon: 0.6376 | States visited: 226
+Episode 9100/20000 | Avg Reward: -200.00 | Epsilon: 0.6344 | States visited: 226
+Episode 9200/20000 | Avg Reward: -200.00 | Epsilon: 0.6313 | States visited: 226
+Episode 9300/20000 | Avg Reward: -200.00 | Epsilon: 0.6281 | States visited: 226
+Episode 9400/20000 | Avg Reward: -200.00 | Epsilon: 0.6250 | States visited: 226
+Episode 9500/20000 | Avg Reward: -200.00 | Epsilon: 0.6219 | States visited: 226
+Episode 9600/20000 | Avg Reward: -200.00 | Epsilon: 0.6188 | States visited: 226
+Episode 9700/20000 | Avg Reward: -200.00 | Epsilon: 0.6157 | States visited: 227
+Episode 9800/20000 | Avg Reward: -200.00 | Epsilon: 0.6126 | States visited: 227
+Episode 9900/20000 | Avg Reward: -200.00 | Epsilon: 0.6096 | States visited: 227
+Episode 10000/20000 | Avg Reward: -200.00 | Epsilon: 0.6065 | States visited: 228
+Episode 10100/20000 | Avg Reward: -200.00 | Epsilon: 0.6035 | States visited: 231
+Episode 10200/20000 | Avg Reward: -200.00 | Epsilon: 0.6005 | States visited: 231
+Episode 10300/20000 | Avg Reward: -200.00 | Epsilon: 0.5975 | States visited: 231
+Episode 10400/20000 | Avg Reward: -200.00 | Epsilon: 0.5945 | States visited: 236
+Episode 10500/20000 | Avg Reward: -200.00 | Epsilon: 0.5915 | States visited: 236
+Episode 10600/20000 | Avg Reward: -200.00 | Epsilon: 0.5886 | States visited: 236
+Episode 10700/20000 | Avg Reward: -200.00 | Epsilon: 0.5857 | States visited: 238
+Episode 10800/20000 | Avg Reward: -200.00 | Epsilon: 0.5827 | States visited: 238
+Episode 10900/20000 | Avg Reward: -200.00 | Epsilon: 0.5798 | States visited: 238
+Episode 11000/20000 | Avg Reward: -200.00 | Epsilon: 0.5769 | States visited: 238
+Episode 11100/20000 | Avg Reward: -200.00 | Epsilon: 0.5741 | States visited: 238
+Episode 11200/20000 | Avg Reward: -200.00 | Epsilon: 0.5712 | States visited: 240
+Episode 11300/20000 | Avg Reward: -199.99 | Epsilon: 0.5684 | States visited: 245
+Episode 11400/20000 | Avg Reward: -200.00 | Epsilon: 0.5655 | States visited: 250
+Episode 11500/20000 | Avg Reward: -200.00 | Epsilon: 0.5627 | States visited: 251
+Episode 11600/20000 | Avg Reward: -200.00 | Epsilon: 0.5599 | States visited: 252
+Episode 11700/20000 | Avg Reward: -199.80 | Epsilon: 0.5571 | States visited: 253
+Episode 11800/20000 | Avg Reward: -200.00 | Epsilon: 0.5543 | States visited: 253
+Episode 11900/20000 | Avg Reward: -200.00 | Epsilon: 0.5516 | States visited: 257
+Episode 12000/20000 | Avg Reward: -200.00 | Epsilon: 0.5488 | States visited: 258
+Episode 12100/20000 | Avg Reward: -199.64 | Epsilon: 0.5461 | States visited: 262
+Episode 12200/20000 | Avg Reward: -199.63 | Epsilon: 0.5433 | States visited: 262
+Episode 12300/20000 | Avg Reward: -200.00 | Epsilon: 0.5406 | States visited: 262
+Episode 12400/20000 | Avg Reward: -200.00 | Epsilon: 0.5379 | States visited: 262
+Episode 12500/20000 | Avg Reward: -200.00 | Epsilon: 0.5353 | States visited: 262
+Episode 12600/20000 | Avg Reward: -200.00 | Epsilon: 0.5326 | States visited: 262
+Episode 12700/20000 | Avg Reward: -200.00 | Epsilon: 0.5299 | States visited: 263
+Episode 12800/20000 | Avg Reward: -199.07 | Epsilon: 0.5273 | States visited: 263
+Episode 12900/20000 | Avg Reward: -199.63 | Epsilon: 0.5247 | States visited: 263
+Episode 13000/20000 | Avg Reward: -200.00 | Epsilon: 0.5220 | States visited: 265
+Episode 13100/20000 | Avg Reward: -199.78 | Epsilon: 0.5194 | States visited: 265
+Episode 13200/20000 | Avg Reward: -200.00 | Epsilon: 0.5168 | States visited: 265
+Episode 13300/20000 | Avg Reward: -199.71 | Epsilon: 0.5143 | States visited: 265
+Episode 13400/20000 | Avg Reward: -199.84 | Epsilon: 0.5117 | States visited: 265
+Episode 13500/20000 | Avg Reward: -199.96 | Epsilon: 0.5091 | States visited: 267
+Episode 13600/20000 | Avg Reward: -200.00 | Epsilon: 0.5066 | States visited: 267
+Episode 13700/20000 | Avg Reward: -199.66 | Epsilon: 0.5041 | States visited: 267
+Episode 13800/20000 | Avg Reward: -199.65 | Epsilon: 0.5016 | States visited: 268
+Episode 13900/20000 | Avg Reward: -198.84 | Epsilon: 0.4991 | States visited: 271
+Episode 14000/20000 | Avg Reward: -200.00 | Epsilon: 0.4966 | States visited: 271
+Episode 14100/20000 | Avg Reward: -199.69 | Epsilon: 0.4941 | States visited: 271
+Episode 14200/20000 | Avg Reward: -199.37 | Epsilon: 0.4916 | States visited: 271
+Episode 14300/20000 | Avg Reward: -199.26 | Epsilon: 0.4892 | States visited: 271
+Episode 14400/20000 | Avg Reward: -199.98 | Epsilon: 0.4867 | States visited: 271
+Episode 14500/20000 | Avg Reward: -199.10 | Epsilon: 0.4843 | States visited: 271
+Episode 14600/20000 | Avg Reward: -198.98 | Epsilon: 0.4819 | States visited: 271
+Episode 14700/20000 | Avg Reward: -200.00 | Epsilon: 0.4795 | States visited: 271
+Episode 14800/20000 | Avg Reward: -199.47 | Epsilon: 0.4771 | States visited: 271
+Episode 14900/20000 | Avg Reward: -199.64 | Epsilon: 0.4747 | States visited: 271
+Episode 15000/20000 | Avg Reward: -199.27 | Epsilon: 0.4724 | States visited: 272
+Episode 15100/20000 | Avg Reward: -199.89 | Epsilon: 0.4700 | States visited: 272
+Episode 15200/20000 | Avg Reward: -199.59 | Epsilon: 0.4677 | States visited: 272
+Episode 15300/20000 | Avg Reward: -198.19 | Epsilon: 0.4653 | States visited: 272
+Episode 15400/20000 | Avg Reward: -199.55 | Epsilon: 0.4630 | States visited: 272
+Episode 15500/20000 | Avg Reward: -200.00 | Epsilon: 0.4607 | States visited: 273
+Episode 15600/20000 | Avg Reward: -198.76 | Epsilon: 0.4584 | States visited: 273
+Episode 15700/20000 | Avg Reward: -199.51 | Epsilon: 0.4561 | States visited: 273
+Episode 15800/20000 | Avg Reward: -199.56 | Epsilon: 0.4538 | States visited: 273
+Episode 15900/20000 | Avg Reward: -198.16 | Epsilon: 0.4516 | States visited: 276
+Episode 16000/20000 | Avg Reward: -197.89 | Epsilon: 0.4493 | States visited: 276
+Episode 16100/20000 | Avg Reward: -198.98 | Epsilon: 0.4471 | States visited: 277
+Episode 16200/20000 | Avg Reward: -199.32 | Epsilon: 0.4448 | States visited: 277
+Episode 16300/20000 | Avg Reward: -198.87 | Epsilon: 0.4426 | States visited: 277
+Episode 16400/20000 | Avg Reward: -196.81 | Epsilon: 0.4404 | States visited: 281
+Episode 16500/20000 | Avg Reward: -197.72 | Epsilon: 0.4382 | States visited: 281
+Episode 16600/20000 | Avg Reward: -197.98 | Epsilon: 0.4360 | States visited: 281
+Episode 16700/20000 | Avg Reward: -198.69 | Epsilon: 0.4339 | States visited: 281
+Episode 16800/20000 | Avg Reward: -197.72 | Epsilon: 0.4317 | States visited: 281
+Episode 16900/20000 | Avg Reward: -198.76 | Epsilon: 0.4295 | States visited: 281
+Episode 17000/20000 | Avg Reward: -198.93 | Epsilon: 0.4274 | States visited: 281
+Episode 17100/20000 | Avg Reward: -198.72 | Epsilon: 0.4253 | States visited: 281
+Episode 17200/20000 | Avg Reward: -199.70 | Epsilon: 0.4232 | States visited: 281
+Episode 17300/20000 | Avg Reward: -199.23 | Epsilon: 0.4210 | States visited: 281
+Episode 17400/20000 | Avg Reward: -197.20 | Epsilon: 0.4189 | States visited: 281
+Episode 17500/20000 | Avg Reward: -197.66 | Epsilon: 0.4169 | States visited: 281
+Episode 17600/20000 | Avg Reward: -199.29 | Epsilon: 0.4148 | States visited: 281
+Episode 17700/20000 | Avg Reward: -198.43 | Epsilon: 0.4127 | States visited: 281
+Episode 17800/20000 | Avg Reward: -195.32 | Epsilon: 0.4106 | States visited: 281
+Episode 17900/20000 | Avg Reward: -198.89 | Epsilon: 0.4086 | States visited: 281
+Episode 18000/20000 | Avg Reward: -193.21 | Epsilon: 0.4066 | States visited: 281
+Episode 18100/20000 | Avg Reward: -197.97 | Epsilon: 0.4045 | States visited: 281
+Episode 18200/20000 | Avg Reward: -198.16 | Epsilon: 0.4025 | States visited: 284
+Episode 18300/20000 | Avg Reward: -194.80 | Epsilon: 0.4005 | States visited: 284
+Episode 18400/20000 | Avg Reward: -196.26 | Epsilon: 0.3985 | States visited: 284
+Episode 18500/20000 | Avg Reward: -197.28 | Epsilon: 0.3965 | States visited: 284
+Episode 18600/20000 | Avg Reward: -195.34 | Epsilon: 0.3945 | States visited: 284
+Episode 18700/20000 | Avg Reward: -196.00 | Epsilon: 0.3926 | States visited: 284
+Episode 18800/20000 | Avg Reward: -195.94 | Epsilon: 0.3906 | States visited: 284
+Episode 18900/20000 | Avg Reward: -197.91 | Epsilon: 0.3887 | States visited: 284
+Episode 19000/20000 | Avg Reward: -195.36 | Epsilon: 0.3867 | States visited: 284
+Episode 19100/20000 | Avg Reward: -193.89 | Epsilon: 0.3848 | States visited: 284
+Episode 19200/20000 | Avg Reward: -195.86 | Epsilon: 0.3829 | States visited: 284
+Episode 19300/20000 | Avg Reward: -198.36 | Epsilon: 0.3810 | States visited: 284
+Episode 19400/20000 | Avg Reward: -196.98 | Epsilon: 0.3791 | States visited: 284
+Episode 19500/20000 | Avg Reward: -193.95 | Epsilon: 0.3772 | States visited: 285
+Episode 19600/20000 | Avg Reward: -189.14 | Epsilon: 0.3753 | States visited: 286
+Episode 19700/20000 | Avg Reward: -193.51 | Epsilon: 0.3734 | States visited: 286
+Episode 19800/20000 | Avg Reward: -195.08 | Epsilon: 0.3716 | States visited: 286
+Episode 19900/20000 | Avg Reward: -194.33 | Epsilon: 0.3697 | States visited: 286
+Episode 20000/20000 | Avg Reward: -193.69 | Epsilon: 0.3679 | States visited: 286
+
+Resultados de la evaluación 
+
+Q-Learning agent for MountainCar-v0
+  Episodes trained : 20000
+  States visited   : 286 / 400
+  Epsilon          : 0.3679
+  LR / Gamma       : 0.1 / 0.99
+
+Evaluating (10 episodes) ...
+  Mean reward: -153.70 +/- 7.67
+  Reached the flag: 10/10 episodes

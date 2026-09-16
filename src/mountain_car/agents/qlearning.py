@@ -6,6 +6,7 @@ bounds published by the environment itself, so the whole state space can be
 discretised into a simple `n_bins x n_bins` grid -- no hand-tuned bounds and
 no special-casing needed.
 """
+import os
 import pickle
 from collections import defaultdict
 from pathlib import Path
@@ -16,24 +17,82 @@ import numpy as np
 
 
 class QLearningAgent:
+    @staticmethod
+    def _resolve_env_value(value, *, default, cast, env_names: tuple[str, ...]) -> float | int:
+        """Return an explicitly provided value or a matching env var override."""
+        if value is not None:
+            return value
+
+        for env_name in env_names:
+            raw = os.getenv(env_name)
+            if raw is None:
+                continue
+            try:
+                return cast(raw)
+            except (TypeError, ValueError):
+                continue
+        return default
+
     def __init__(
         self,
         env_id: str,
         *,
-        n_bins: int = 20,
-        lr: float = 0.1,
-        gamma: float = 0.99,
-        epsilon_start: float = 1.0,
-        epsilon_end: float = 0.01,
-        epsilon_decay: float = 0.9995,
+        n_bins: int | None = None,
+        lr: float | None = None,
+        gamma: float | None = None,
+        epsilon_start: float | None = None,
+        epsilon_end: float | None = None,
+        epsilon_decay: float | None = None,
     ) -> None:
         self.env_id = env_id
-        self.n_bins = n_bins
-        self.lr = lr
-        self.gamma = gamma
-        self.epsilon = epsilon_start
-        self.epsilon_end = epsilon_end
-        self.epsilon_decay = epsilon_decay
+        self.n_bins = int(
+            self._resolve_env_value(
+                n_bins,
+                default=20,
+                cast=int,
+                env_names=("MOUNTAIN_CAR_N_BINS", "QLEARNING_N_BINS", "N_BINS"),
+            )
+        )
+        self.lr = float(
+            self._resolve_env_value(
+                lr,
+                default=0.1,
+                cast=float,
+                env_names=("MOUNTAIN_CAR_LR", "QLEARNING_LR", "LR"),
+            )
+        )
+        self.gamma = float(
+            self._resolve_env_value(
+                gamma,
+                default=0.99,
+                cast=float,
+                env_names=("MOUNTAIN_CAR_GAMMA", "QLEARNING_GAMMA", "GAMMA"),
+            )
+        )
+        self.epsilon = float(
+            self._resolve_env_value(
+                epsilon_start,
+                default=1.0,
+                cast=float,
+                env_names=("MOUNTAIN_CAR_EPSILON_START", "QLEARNING_EPSILON_START", "EPSILON_START"),
+            )
+        )
+        self.epsilon_end = float(
+            self._resolve_env_value(
+                epsilon_end,
+                default=0.01,
+                cast=float,
+                env_names=("MOUNTAIN_CAR_EPSILON_END", "QLEARNING_EPSILON_END", "EPSILON_END"),
+            )
+        )
+        self.epsilon_decay = float(
+            self._resolve_env_value(
+                epsilon_decay,
+                default=0.99995,
+                cast=float,
+                env_names=("MOUNTAIN_CAR_EPSILON_DECAY", "QLEARNING_EPSILON_DECAY", "EPSILON_DECAY"),
+            )
+        )
         self.training_episodes = 0
 
         env = gym.make(env_id)
@@ -42,7 +101,7 @@ class QLearningAgent:
         env.close()
 
         # Bin edges per dimension (interior edges only, as np.digitize wants).
-        self._bins = [np.linspace(lo, hi, n_bins + 1)[1:-1] for lo, hi in zip(low, high)]
+        self._bins = [np.linspace(lo, hi, self.n_bins + 1)[1:-1] for lo, hi in zip(low, high)]
         self.q_table: dict[tuple, np.ndarray] = defaultdict(lambda: np.zeros(self.n_actions))
 
     # ── helpers ───────────────────────────────────────────────────────
@@ -57,7 +116,10 @@ class QLearningAgent:
         Tip: np.digitize(value, edges) returns the index of the bin a value
         falls into. Tip: the key must be hashable, so build a tuple of ints.
         """
-        raise NotImplementedError("EXERCISE 1a: implement discretize()")
+        return tuple(
+            int(np.digitize(value, edges))
+            for value, edges in zip(obs, self._bins)
+        )
 
     def select_action(self, state: tuple, *, deterministic: bool = False) -> int:
         """EXERCISE 1b: epsilon-greedy action selection.
@@ -72,7 +134,10 @@ class QLearningAgent:
         Tip: self.q_table is a defaultdict, so indexing an unseen state is safe
         and returns a zero vector. Tip: np.argmax gives you the best action.
         """
-        raise NotImplementedError("EXERCISE 1b: implement select_action()")
+        if not deterministic and np.random.random() < self.epsilon:
+            return int(np.random.randint(self.n_actions))
+
+        return int(np.argmax(self.q_table[state]))
 
     def predict(self, obs: np.ndarray, *, deterministic: bool = True) -> tuple[int, None]:
         return self.select_action(self.discretize(obs), deterministic=deterministic), None
@@ -100,7 +165,12 @@ class QLearningAgent:
         Note that `terminated` is NOT the same as "the episode ended" -- see
         the training loop below for why that distinction matters here.
         """
-        raise NotImplementedError("EXERCISE 1c: implement the Q-Learning update")
+        target = reward
+        if not terminated:
+            target += self.gamma * np.max(self.q_table[next_state])
+
+        current_q = self.q_table[state][action]
+        self.q_table[state][action] += self.lr * (target - current_q)
 
     def train(self, total_episodes: int = 10_000, log_interval: int = 100) -> list[float]:
         env = gym.make(self.env_id)
